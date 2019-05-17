@@ -1,0 +1,52 @@
+Directory Structure
+
+simplified_struct2depth
+│  calib.py
+│  custom_transforms.py
+│  data_loader.py
+│  DispNetS.py
+│  loss_func.py
+│  main.py
+│  main_old.py
+│  params.py
+│  PoseExpNet.py
+│  README.md
+│  split.py
+│  util.py
+│
+├─calib_jpg
+│      0020.jpg
+│      0040.jpg
+│      0060.jpg
+│      0080.jpg
+│      0100.jpg
+│      ...
+│
+├─dataset
+│  ├─video1
+│  │      0015.jpg
+│  │      0020.jpg
+│  │      0025.jpg
+│  │      0030.jpg
+│  │      0035.jpg
+│  │      ...
+│  │
+│  └─video2
+│          0025.jpg
+│          0030.jpg
+│          0035.jpg
+│          0040.jpg
+│          0045.jpg
+│          ...
+│
+├─misc
+│      main_monodepth.py
+│      rst.gif
+│      说明.docx
+│      说明.pdf
+│
+└─video
+        calib.mp4
+        1.mp4
+        2.mp4
+        ...

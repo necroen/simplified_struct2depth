@@ -1,0 +1,1263 @@
+
+batchsize = 1
+best loss 打印的时候忘了除以样本数了
+这里的log记录不是这份代码产生的，是之前更原始的一个版本产生的
+
+D:\py2019\myStruct2depth>python main2.py
+1634
+============================== epoch: 0
+idx:    0 reconstr: 0.14845  smooth: 0.26486  ssim: 0.83912  total: 0.26264
+idx:  200 reconstr: 0.16386  smooth: 0.00922  ssim: 0.82449  total: 0.26333
+idx:  400 reconstr: 0.23303  smooth: 0.00551  ssim: 1.08225  total: 0.36064
+idx:  600 reconstr: 0.10608  smooth: 0.00258  ssim: 0.53104  total: 0.16993
+idx:  800 reconstr: 0.16734  smooth: 0.00315  ssim: 0.96419  total: 0.28700
+idx: 1000 reconstr: 0.16936  smooth: 0.00387  ssim: 0.86086  total: 0.27324
+idx: 1200 reconstr: 0.11591  smooth: 0.00324  ssim: 0.62875  total: 0.19297
+idx: 1400 reconstr: 0.23157  smooth: 0.00392  ssim: 1.04226  total: 0.35333
+idx: 1600 reconstr: 0.09886  smooth: 0.00478  ssim: 0.56250  total: 0.16860
+=====================================
+best loss: 429.09158197790384
+=====================================
+Epoch: 0 train_loss: 0.26260194735489834 time: 506.52 s
+============================== epoch: 1
+idx:    0 reconstr: 0.21151  smooth: 0.00381  ssim: 1.06125  total: 0.33912
+idx:  200 reconstr: 0.14963  smooth: 0.00313  ssim: 0.73965  total: 0.23826
+idx:  400 reconstr: 0.25160  smooth: 0.00285  ssim: 1.05458  total: 0.37216
+idx:  600 reconstr: 0.20205  smooth: 0.00253  ssim: 0.94312  total: 0.31332
+idx:  800 reconstr: 0.29823  smooth: 0.00399  ssim: 1.00798  total: 0.40485
+idx: 1000 reconstr: 0.14569  smooth: 0.00462  ssim: 0.78596  total: 0.24191
+idx: 1200 reconstr: 0.16124  smooth: 0.00495  ssim: 0.85948  total: 0.26617
+idx: 1400 reconstr: 0.22863  smooth: 0.00590  ssim: 1.07428  total: 0.35572
+idx: 1600 reconstr: 0.12430  smooth: 0.00274  ssim: 0.70333  total: 0.21127
+=====================================
+best loss: 427.2269261032343
+=====================================
+Epoch: 1 train_loss: 0.26146078708888265 time: 483.734 s
+============================== epoch: 2
+idx:    0 reconstr: 0.17197  smooth: 0.00307  ssim: 0.95356  total: 0.28933
+idx:  200 reconstr: 0.15653  smooth: 0.00482  ssim: 0.71834  total: 0.24100
+idx:  400 reconstr: 0.19431  smooth: 0.00500  ssim: 1.01881  total: 0.31819
+idx:  600 reconstr: 0.10573  smooth: 0.00593  ssim: 0.59849  total: 0.17988
+idx:  800 reconstr: 0.13548  smooth: 0.00375  ssim: 0.63791  total: 0.21099
+idx: 1000 reconstr: 0.16655  smooth: 0.00302  ssim: 0.83349  total: 0.26671
+idx: 1200 reconstr: 0.20246  smooth: 0.00652  ssim: 0.92954  total: 0.31178
+idx: 1400 reconstr: 0.15046  smooth: 0.00540  ssim: 0.78082  total: 0.24523
+idx: 1600 reconstr: 0.17793  smooth: 0.00653  ssim: 0.85378  total: 0.27956
+=====================================
+best loss: 386.75273613631725
+=====================================
+Epoch: 2 train_loss: 0.23669078098917826 time: 483.921 s
+============================== epoch: 3
+idx:    0 reconstr: 0.08996  smooth: 0.00676  ssim: 0.44556  total: 0.14357
+idx:  200 reconstr: 0.20988  smooth: 0.01046  ssim: 0.77896  total: 0.29566
+idx:  400 reconstr: 0.15559  smooth: 0.00594  ssim: 0.77627  total: 0.24893
+idx:  600 reconstr: 0.10398  smooth: 0.01053  ssim: 0.48730  total: 0.16190
+idx:  800 reconstr: 0.12623  smooth: 0.01006  ssim: 0.70620  total: 0.21363
+idx: 1000 reconstr: 0.11568  smooth: 0.01531  ssim: 0.62074  total: 0.19205
+idx: 1200 reconstr: 0.12182  smooth: 0.00928  ssim: 0.57844  total: 0.19068
+idx: 1400 reconstr: 0.13423  smooth: 0.01589  ssim: 0.72111  total: 0.22290
+idx: 1600 reconstr: 0.13449  smooth: 0.01408  ssim: 0.81228  total: 0.23672
+=====================================
+best loss: 361.4969708621502
+=====================================
+Epoch: 3 train_loss: 0.22123437629262557 time: 483.679 s
+============================== epoch: 4
+idx:    0 reconstr: 0.14441  smooth: 0.01854  ssim: 0.75766  total: 0.23714
+idx:  200 reconstr: 0.12353  smooth: 0.01697  ssim: 0.68186  total: 0.20796
+idx:  400 reconstr: 0.11367  smooth: 0.01795  ssim: 0.66874  total: 0.19765
+idx:  600 reconstr: 0.13754  smooth: 0.01723  ssim: 0.75548  total: 0.23092
+idx:  800 reconstr: 0.08187  smooth: 0.01655  ssim: 0.46304  total: 0.13971
+idx: 1000 reconstr: 0.17437  smooth: 0.01799  ssim: 0.69034  total: 0.25248
+idx: 1200 reconstr: 0.09954  smooth: 0.01913  ssim: 0.48416  total: 0.15800
+idx: 1400 reconstr: 0.13890  smooth: 0.02262  ssim: 0.71870  total: 0.22677
+idx: 1600 reconstr: 0.08523  smooth: 0.02206  ssim: 0.48118  total: 0.14550
+=====================================
+best loss: 350.3500020429492
+=====================================
+Epoch: 4 train_loss: 0.2144124859503973 time: 486.21 s
+============================== epoch: 5
+idx:    0 reconstr: 0.13297  smooth: 0.02179  ssim: 0.54730  total: 0.19599
+idx:  200 reconstr: 0.15122  smooth: 0.02050  ssim: 0.75912  total: 0.24323
+idx:  400 reconstr: 0.13730  smooth: 0.02003  ssim: 0.68391  total: 0.22009
+idx:  600 reconstr: 0.10632  smooth: 0.02401  ssim: 0.55701  total: 0.17488
+idx:  800 reconstr: 0.15720  smooth: 0.02253  ssim: 0.89890  total: 0.26936
+idx: 1000 reconstr: 0.13501  smooth: 0.02181  ssim: 0.77360  total: 0.23167
+idx: 1200 reconstr: 0.15705  smooth: 0.02173  ssim: 0.80007  total: 0.25437
+idx: 1400 reconstr: 0.15465  smooth: 0.02462  ssim: 0.70144  total: 0.23765
+idx: 1600 reconstr: 0.11731  smooth: 0.02587  ssim: 0.56858  total: 0.18603
+=====================================
+best loss: 341.07795552909374
+=====================================
+Epoch: 5 train_loss: 0.20873803887949433 time: 483.681 s
+============================== epoch: 6
+idx:    0 reconstr: 0.19764  smooth: 0.02345  ssim: 0.85716  total: 0.29751
+idx:  200 reconstr: 0.15986  smooth: 0.02798  ssim: 0.76306  total: 0.25146
+idx:  400 reconstr: 0.11770  smooth: 0.02603  ssim: 0.52143  total: 0.17930
+idx:  600 reconstr: 0.18166  smooth: 0.03063  ssim: 0.87648  total: 0.28711
+idx:  800 reconstr: 0.12009  smooth: 0.02636  ssim: 0.62889  total: 0.19746
+idx: 1000 reconstr: 0.13576  smooth: 0.02778  ssim: 0.76387  total: 0.23108
+idx: 1200 reconstr: 0.08270  smooth: 0.02913  ssim: 0.44890  total: 0.13880
+idx: 1400 reconstr: 0.22340  smooth: 0.03185  ssim: 1.05791  total: 0.34985
+idx: 1600 reconstr: 0.12138  smooth: 0.02996  ssim: 0.61426  total: 0.19651
+=====================================
+best loss: 334.97413977980614
+=====================================
+Epoch: 6 train_loss: 0.20500253352497316 time: 480.745 s
+============================== epoch: 7
+idx:    0 reconstr: 0.14867  smooth: 0.02970  ssim: 0.78669  total: 0.24556
+idx:  200 reconstr: 0.10408  smooth: 0.03204  ssim: 0.56854  total: 0.17503
+idx:  400 reconstr: 0.12605  smooth: 0.03159  ssim: 0.63801  total: 0.20411
+idx:  600 reconstr: 0.10053  smooth: 0.03509  ssim: 0.49891  total: 0.16169
+idx:  800 reconstr: 0.13052  smooth: 0.03610  ssim: 0.70590  total: 0.21827
+idx: 1000 reconstr: 0.07694  smooth: 0.03767  ssim: 0.38681  total: 0.12493
+idx: 1200 reconstr: 0.11719  smooth: 0.03582  ssim: 0.63727  total: 0.19663
+idx: 1400 reconstr: 0.13897  smooth: 0.03616  ssim: 0.68595  total: 0.22246
+idx: 1600 reconstr: 0.11326  smooth: 0.03547  ssim: 0.59077  total: 0.18631
+=====================================
+best loss: 329.3093929961324
+=====================================
+Epoch: 7 train_loss: 0.20153573622774318 time: 483.073 s
+============================== epoch: 8
+idx:    0 reconstr: 0.23109  smooth: 0.03724  ssim: 0.95550  total: 0.34125
+idx:  200 reconstr: 0.09248  smooth: 0.03758  ssim: 0.50224  total: 0.15545
+idx:  400 reconstr: 0.08944  smooth: 0.03627  ssim: 0.52826  total: 0.15672
+idx:  600 reconstr: 0.10563  smooth: 0.04175  ssim: 0.58005  total: 0.17846
+idx:  800 reconstr: 0.12423  smooth: 0.04169  ssim: 0.45761  total: 0.17590
+idx: 1000 reconstr: 0.08207  smooth: 0.03888  ssim: 0.43385  total: 0.13639
+idx: 1200 reconstr: 0.09879  smooth: 0.04545  ssim: 0.49086  total: 0.15942
+idx: 1400 reconstr: 0.12978  smooth: 0.04244  ssim: 0.48480  total: 0.18473
+idx: 1600 reconstr: 0.08427  smooth: 0.04456  ssim: 0.39816  total: 0.13314
+=====================================
+best loss: 322.4899001196027
+=====================================
+Epoch: 8 train_loss: 0.19736223997527705 time: 483.103 s
+============================== epoch: 9
+idx:    0 reconstr: 0.09458  smooth: 0.04466  ssim: 0.51325  total: 0.15917
+idx:  200 reconstr: 0.11848  smooth: 0.04654  ssim: 0.70433  total: 0.20822
+idx:  400 reconstr: 0.13158  smooth: 0.04295  ssim: 0.77437  total: 0.22971
+idx:  600 reconstr: 0.12681  smooth: 0.04407  ssim: 0.55994  total: 0.19354
+idx:  800 reconstr: 0.12587  smooth: 0.04647  ssim: 0.57491  total: 0.19508
+idx: 1000 reconstr: 0.19443  smooth: 0.04711  ssim: 0.93167  total: 0.30690
+idx: 1200 reconstr: 0.14554  smooth: 0.04875  ssim: 0.72103  total: 0.23381
+idx: 1400 reconstr: 0.09092  smooth: 0.04722  ssim: 0.41182  total: 0.14094
+idx: 1600 reconstr: 0.13906  smooth: 0.04397  ssim: 0.80864  total: 0.24126
+=====================================
+best loss: 315.9381253644824
+=====================================
+Epoch: 9 train_loss: 0.193352585902376 time: 486.452 s
+============================== epoch: 10
+idx:    0 reconstr: 0.13204  smooth: 0.04579  ssim: 0.74043  total: 0.22513
+idx:  200 reconstr: 0.12065  smooth: 0.05120  ssim: 0.66276  total: 0.20401
+idx:  400 reconstr: 0.12952  smooth: 0.04873  ssim: 0.51693  total: 0.18958
+idx:  600 reconstr: 0.09150  smooth: 0.04664  ssim: 0.51695  total: 0.15718
+idx:  800 reconstr: 0.18488  smooth: 0.05075  ssim: 0.92380  total: 0.29775
+idx: 1000 reconstr: 0.13930  smooth: 0.04972  ssim: 0.63517  total: 0.21567
+idx: 1200 reconstr: 0.12440  smooth: 0.04771  ssim: 0.61419  total: 0.19978
+idx: 1400 reconstr: 0.10194  smooth: 0.04899  ssim: 0.52507  total: 0.16737
+idx: 1600 reconstr: 0.12025  smooth: 0.04801  ssim: 0.62806  total: 0.19835
+=====================================
+best loss: 311.3505404293537
+=====================================
+Epoch: 10 train_loss: 0.1905450063827134 time: 484.088 s
+============================== epoch: 11
+idx:    0 reconstr: 0.12612  smooth: 0.04780  ssim: 0.64995  total: 0.20661
+idx:  200 reconstr: 0.09574  smooth: 0.04928  ssim: 0.54940  total: 0.16576
+idx:  400 reconstr: 0.15656  smooth: 0.05339  ssim: 0.88483  total: 0.26794
+idx:  600 reconstr: 0.10678  smooth: 0.04869  ssim: 0.55594  total: 0.17610
+idx:  800 reconstr: 0.09635  smooth: 0.04996  ssim: 0.45435  total: 0.15205
+idx: 1000 reconstr: 0.11104  smooth: 0.04998  ssim: 0.52153  total: 0.17461
+idx: 1200 reconstr: 0.06736  smooth: 0.05038  ssim: 0.33742  total: 0.10988
+idx: 1400 reconstr: 0.11123  smooth: 0.04898  ssim: 0.53934  total: 0.17741
+idx: 1600 reconstr: 0.14656  smooth: 0.04734  ssim: 0.68354  total: 0.22900
+=====================================
+best loss: 306.61218900233507
+=====================================
+Epoch: 11 train_loss: 0.187645158508161 time: 484.699 s
+============================== epoch: 12
+idx:    0 reconstr: 0.13039  smooth: 0.05380  ssim: 0.78382  total: 0.23056
+idx:  200 reconstr: 0.21822  smooth: 0.05000  ssim: 0.77930  total: 0.30439
+idx:  400 reconstr: 0.09267  smooth: 0.05049  ssim: 0.46059  total: 0.14988
+idx:  600 reconstr: 0.12669  smooth: 0.04974  ssim: 0.64834  total: 0.20693
+idx:  800 reconstr: 0.14135  smooth: 0.05118  ssim: 0.65635  total: 0.22065
+idx: 1000 reconstr: 0.12899  smooth: 0.05664  ssim: 0.61044  total: 0.20348
+idx: 1200 reconstr: 0.10087  smooth: 0.05338  ssim: 0.53703  total: 0.16843
+idx: 1400 reconstr: 0.21045  smooth: 0.04936  ssim: 0.86290  total: 0.31029
+idx: 1600 reconstr: 0.10427  smooth: 0.05340  ssim: 0.43760  total: 0.15641
+=====================================
+best loss: 301.7935838550329
+=====================================
+Epoch: 12 train_loss: 0.18469619574971416 time: 486.4 s
+============================== epoch: 13
+idx:    0 reconstr: 0.09935  smooth: 0.04853  ssim: 0.45482  total: 0.15461
+idx:  200 reconstr: 0.08222  smooth: 0.04958  ssim: 0.40558  total: 0.13271
+idx:  400 reconstr: 0.10732  smooth: 0.05138  ssim: 0.57059  total: 0.17887
+idx:  600 reconstr: 0.10267  smooth: 0.05539  ssim: 0.49636  total: 0.16394
+idx:  800 reconstr: 0.11931  smooth: 0.04791  ssim: 0.49793  total: 0.17802
+idx: 1000 reconstr: 0.09707  smooth: 0.04975  ssim: 0.48881  total: 0.15782
+idx: 1200 reconstr: 0.09617  smooth: 0.05477  ssim: 0.50278  total: 0.15935
+idx: 1400 reconstr: 0.12594  smooth: 0.07355  ssim: 0.63653  total: 0.20547
+idx: 1600 reconstr: 0.20059  smooth: 0.05192  ssim: 0.95460  total: 0.31577
+=====================================
+best loss: 298.557699598372
+=====================================
+Epoch: 13 train_loss: 0.18271585042740024 time: 485.252 s
+============================== epoch: 14
+idx:    0 reconstr: 0.08989  smooth: 0.05711  ssim: 0.44457  total: 0.14537
+idx:  200 reconstr: 0.14543  smooth: 0.05083  ssim: 0.69093  total: 0.22929
+idx:  400 reconstr: 0.18687  smooth: 0.05766  ssim: 0.92580  total: 0.30001
+idx:  600 reconstr: 0.08128  smooth: 0.05567  ssim: 0.42159  total: 0.13455
+idx:  800 reconstr: 0.11870  smooth: 0.05190  ssim: 0.59965  total: 0.19291
+idx: 1000 reconstr: 0.07609  smooth: 0.05143  ssim: 0.39480  total: 0.12595
+idx: 1200 reconstr: 0.07996  smooth: 0.05288  ssim: 0.38115  total: 0.12725
+idx: 1400 reconstr: 0.12643  smooth: 0.05226  ssim: 0.50963  total: 0.18600
+idx: 1600 reconstr: 0.12516  smooth: 0.05809  ssim: 0.69039  total: 0.21227
+=====================================
+best loss: 295.1000652834773
+=====================================
+Epoch: 14 train_loss: 0.18059979515512686 time: 483.646 s
+============================== epoch: 15
+idx:    0 reconstr: 0.10409  smooth: 0.05919  ssim: 0.53217  total: 0.17067
+idx:  200 reconstr: 0.10926  smooth: 0.04870  ssim: 0.52129  total: 0.17302
+idx:  400 reconstr: 0.09959  smooth: 0.05653  ssim: 0.50765  total: 0.16306
+idx:  600 reconstr: 0.15643  smooth: 0.05137  ssim: 0.78071  total: 0.25213
+idx:  800 reconstr: 0.09984  smooth: 0.05879  ssim: 0.49416  total: 0.16134
+idx: 1000 reconstr: 0.13470  smooth: 0.05187  ssim: 0.67410  total: 0.21768
+idx: 1200 reconstr: 0.11181  smooth: 0.05680  ssim: 0.55119  total: 0.17999
+idx: 1400 reconstr: 0.07244  smooth: 0.05019  ssim: 0.28362  total: 0.10612
+idx: 1600 reconstr: 0.09065  smooth: 0.05184  ssim: 0.50780  total: 0.15529
+=====================================
+best loss: 290.6002403870225
+=====================================
+Epoch: 15 train_loss: 0.17784592434946297 time: 484.68 s
+============================== epoch: 16
+idx:    0 reconstr: 0.12892  smooth: 0.04864  ssim: 0.68703  total: 0.21458
+idx:  200 reconstr: 0.09222  smooth: 0.05437  ssim: 0.38470  total: 0.13826
+idx:  400 reconstr: 0.09987  smooth: 0.05242  ssim: 0.53992  total: 0.16797
+idx:  600 reconstr: 0.10175  smooth: 0.05568  ssim: 0.57430  total: 0.17486
+idx:  800 reconstr: 0.09040  smooth: 0.05641  ssim: 0.44057  total: 0.14518
+idx: 1000 reconstr: 0.09912  smooth: 0.05169  ssim: 0.49431  total: 0.16046
+idx: 1200 reconstr: 0.14782  smooth: 0.05555  ssim: 0.61949  total: 0.22080
+idx: 1400 reconstr: 0.12821  smooth: 0.05644  ssim: 0.68907  total: 0.21460
+idx: 1600 reconstr: 0.14508  smooth: 0.05609  ssim: 0.79927  total: 0.24545
+=====================================
+best loss: 287.95150703936815
+=====================================
+Epoch: 16 train_loss: 0.17622491250879324 time: 485.86 s
+============================== epoch: 17
+idx:    0 reconstr: 0.09821  smooth: 0.04987  ssim: 0.56027  total: 0.16951
+idx:  200 reconstr: 0.11142  smooth: 0.07117  ssim: 0.42048  total: 0.16062
+idx:  400 reconstr: 0.10235  smooth: 0.05558  ssim: 0.44817  total: 0.15644
+idx:  600 reconstr: 0.11746  smooth: 0.05354  ssim: 0.58099  total: 0.18913
+idx:  800 reconstr: 0.25152  smooth: 0.05179  ssim: 1.07443  total: 0.37703
+idx: 1000 reconstr: 0.06847  smooth: 0.05412  ssim: 0.28853  total: 0.10364
+idx: 1200 reconstr: 0.10713  smooth: 0.05853  ssim: 0.53340  total: 0.17341
+idx: 1400 reconstr: 0.10257  smooth: 0.05191  ssim: 0.59221  total: 0.17810
+idx: 1600 reconstr: 0.28671  smooth: 0.05157  ssim: 1.23509  total: 0.43103
+=====================================
+best loss: 284.79722145944834
+=====================================
+Epoch: 17 train_loss: 0.17429450517714096 time: 483.279 s
+============================== epoch: 18
+idx:    0 reconstr: 0.13782  smooth: 0.05908  ssim: 0.71496  total: 0.22676
+idx:  200 reconstr: 0.07894  smooth: 0.05933  ssim: 0.40093  total: 0.12961
+idx:  400 reconstr: 0.09104  smooth: 0.05729  ssim: 0.46468  total: 0.14938
+idx:  600 reconstr: 0.11519  smooth: 0.05662  ssim: 0.59618  total: 0.18960
+idx:  800 reconstr: 0.09088  smooth: 0.05310  ssim: 0.47659  total: 0.15086
+idx: 1000 reconstr: 0.08051  smooth: 0.06094  ssim: 0.37555  total: 0.12721
+idx: 1200 reconstr: 0.13183  smooth: 0.05477  ssim: 0.55665  total: 0.19774
+idx: 1400 reconstr: 0.09987  smooth: 0.05821  ssim: 0.45750  total: 0.15584
+idx: 1600 reconstr: 0.11257  smooth: 0.05665  ssim: 0.51295  total: 0.17489
+=====================================
+best loss: 279.99485874176025
+=====================================
+Epoch: 18 train_loss: 0.17135548270609563 time: 482.731 s
+============================== epoch: 19
+idx:    0 reconstr: 0.11564  smooth: 0.05314  ssim: 0.51111  total: 0.17708
+idx:  200 reconstr: 0.14501  smooth: 0.05668  ssim: 0.53402  total: 0.20563
+idx:  400 reconstr: 0.07392  smooth: 0.05989  ssim: 0.39041  total: 0.12379
+idx:  600 reconstr: 0.12910  smooth: 0.05891  ssim: 0.59197  total: 0.20089
+idx:  800 reconstr: 0.07957  smooth: 0.06355  ssim: 0.44866  total: 0.13747
+idx: 1000 reconstr: 0.09814  smooth: 0.05891  ssim: 0.55098  total: 0.16842
+idx: 1200 reconstr: 0.12527  smooth: 0.06659  ssim: 0.69532  total: 0.21344
+idx: 1400 reconstr: 0.15606  smooth: 0.06446  ssim: 0.63332  total: 0.23023
+idx: 1600 reconstr: 0.08674  smooth: 0.05355  ssim: 0.47223  total: 0.14670
+=====================================
+best loss: 279.91527538746595
+=====================================
+Epoch: 19 train_loss: 0.1713067780829045 time: 482.099 s
+============================== epoch: 20
+idx:    0 reconstr: 0.09653  smooth: 0.05787  ssim: 0.46812  total: 0.15458
+idx:  200 reconstr: 0.06886  smooth: 0.06428  ssim: 0.27899  total: 0.10295
+idx:  400 reconstr: 0.09341  smooth: 0.05912  ssim: 0.36159  total: 0.13600
+idx:  600 reconstr: 0.07929  smooth: 0.06476  ssim: 0.30151  total: 0.11521
+idx:  800 reconstr: 0.10950  smooth: 0.06552  ssim: 0.52934  total: 0.17510
+idx: 1000 reconstr: 0.11407  smooth: 0.06258  ssim: 0.62246  total: 0.19283
+idx: 1200 reconstr: 0.11338  smooth: 0.06410  ssim: 0.54867  total: 0.18123
+idx: 1400 reconstr: 0.07956  smooth: 0.05895  ssim: 0.40513  total: 0.13075
+idx: 1600 reconstr: 0.09844  smooth: 0.05850  ssim: 0.45632  total: 0.15446
+=====================================
+best loss: 275.2361513748765
+=====================================
+Epoch: 20 train_loss: 0.16844317709600765 time: 483.316 s
+============================== epoch: 21
+idx:    0 reconstr: 0.08546  smooth: 0.05386  ssim: 0.42454  total: 0.13848
+idx:  200 reconstr: 0.06961  smooth: 0.05546  ssim: 0.28063  total: 0.10349
+idx:  400 reconstr: 0.11960  smooth: 0.06081  ssim: 0.56544  total: 0.18891
+idx:  600 reconstr: 0.10707  smooth: 0.06521  ssim: 0.52050  total: 0.17169
+idx:  800 reconstr: 0.13790  smooth: 0.06571  ssim: 0.78046  total: 0.23691
+idx: 1000 reconstr: 0.12144  smooth: 0.06077  ssim: 0.60865  total: 0.19695
+idx: 1200 reconstr: 0.07420  smooth: 0.05436  ssim: 0.40614  total: 0.12617
+idx: 1400 reconstr: 0.12281  smooth: 0.05785  ssim: 0.55218  total: 0.18953
+idx: 1600 reconstr: 0.21849  smooth: 0.06766  ssim: 0.83606  total: 0.31383
+=====================================
+best loss: 272.6159556210041
+=====================================
+Epoch: 21 train_loss: 0.16683963012301353 time: 482.91 s
+============================== epoch: 22
+idx:    0 reconstr: 0.12408  smooth: 0.06413  ssim: 0.60063  total: 0.19812
+idx:  200 reconstr: 0.09737  smooth: 0.06100  ssim: 0.48956  total: 0.15864
+idx:  400 reconstr: 0.08554  smooth: 0.05774  ssim: 0.39162  total: 0.13376
+idx:  600 reconstr: 0.08332  smooth: 0.05833  ssim: 0.35994  total: 0.12714
+idx:  800 reconstr: 0.08387  smooth: 0.06185  ssim: 0.35113  total: 0.12643
+idx: 1000 reconstr: 0.08922  smooth: 0.06120  ssim: 0.39692  total: 0.13782
+idx: 1200 reconstr: 0.13306  smooth: 0.06137  ssim: 0.46538  total: 0.18536
+idx: 1400 reconstr: 0.10657  smooth: 0.06327  ssim: 0.48305  total: 0.16557
+idx: 1600 reconstr: 0.11989  smooth: 0.06509  ssim: 0.65794  total: 0.20320
+=====================================
+best loss: 268.649219147861
+=====================================
+Epoch: 22 train_loss: 0.16441200682243637 time: 484.033 s
+============================== epoch: 23
+idx:    0 reconstr: 0.08941  smooth: 0.06312  ssim: 0.37728  total: 0.13511
+idx:  200 reconstr: 0.06962  smooth: 0.05975  ssim: 0.30043  total: 0.10663
+idx:  400 reconstr: 0.08626  smooth: 0.05748  ssim: 0.30162  total: 0.12087
+idx:  600 reconstr: 0.07372  smooth: 0.06104  ssim: 0.31792  total: 0.11279
+idx:  800 reconstr: 0.08701  smooth: 0.07534  ssim: 0.41571  total: 0.13933
+idx: 1000 reconstr: 0.06667  smooth: 0.06354  ssim: 0.30398  total: 0.10481
+idx: 1200 reconstr: 0.11692  smooth: 0.06056  ssim: 0.59577  total: 0.19117
+idx: 1400 reconstr: 0.06959  smooth: 0.06238  ssim: 0.33314  total: 0.11162
+idx: 1600 reconstr: 0.12724  smooth: 0.05998  ssim: 0.41494  total: 0.17279
+=====================================
+best loss: 265.7139639481902
+=====================================
+Epoch: 23 train_loss: 0.16261564501113232 time: 477.995 s
+============================== epoch: 24
+idx:    0 reconstr: 0.16853  smooth: 0.05983  ssim: 0.72210  total: 0.25396
+idx:  200 reconstr: 0.09729  smooth: 0.05981  ssim: 0.44912  total: 0.15246
+idx:  400 reconstr: 0.07060  smooth: 0.06164  ssim: 0.27783  total: 0.10415
+idx:  600 reconstr: 0.11594  smooth: 0.05664  ssim: 0.52330  total: 0.17931
+idx:  800 reconstr: 0.09316  smooth: 0.06299  ssim: 0.47489  total: 0.15294
+idx: 1000 reconstr: 0.11501  smooth: 0.06384  ssim: 0.49636  total: 0.17476
+idx: 1200 reconstr: 0.11040  smooth: 0.06088  ssim: 0.54404  total: 0.17788
+idx: 1400 reconstr: 0.13148  smooth: 0.06400  ssim: 0.60270  total: 0.20473
+idx: 1600 reconstr: 0.07843  smooth: 0.06541  ssim: 0.38363  total: 0.12683
+=====================================
+best loss: 264.32847664505243
+=====================================
+Epoch: 24 train_loss: 0.16176773356490357 time: 485.186 s
+============================== epoch: 25
+idx:    0 reconstr: 0.15269  smooth: 0.06044  ssim: 0.67865  total: 0.23400
+idx:  200 reconstr: 0.10354  smooth: 0.09166  ssim: 0.42227  total: 0.15502
+idx:  400 reconstr: 0.07970  smooth: 0.06052  ssim: 0.43124  total: 0.13485
+idx:  600 reconstr: 0.14539  smooth: 0.06580  ssim: 0.73635  total: 0.23666
+idx:  800 reconstr: 0.08398  smooth: 0.05883  ssim: 0.33200  total: 0.12354
+idx: 1000 reconstr: 0.10175  smooth: 0.05940  ssim: 0.49738  total: 0.16347
+idx: 1200 reconstr: 0.08757  smooth: 0.06376  ssim: 0.51093  total: 0.15363
+idx: 1400 reconstr: 0.08033  smooth: 0.06317  ssim: 0.33579  total: 0.12118
+idx: 1600 reconstr: 0.07892  smooth: 0.05897  ssim: 0.38783  total: 0.12762
+=====================================
+best loss: 262.9270371645689
+=====================================
+Epoch: 25 train_loss: 0.16091005946424045 time: 484.277 s
+============================== epoch: 26
+idx:    0 reconstr: 0.09942  smooth: 0.06025  ssim: 0.42895  total: 0.15126
+idx:  200 reconstr: 0.06087  smooth: 0.05567  ssim: 0.31434  total: 0.10112
+idx:  400 reconstr: 0.08942  smooth: 0.06254  ssim: 0.45305  total: 0.14647
+idx:  600 reconstr: 0.10879  smooth: 0.06333  ssim: 0.60677  total: 0.18602
+idx:  800 reconstr: 0.07900  smooth: 0.05600  ssim: 0.35053  total: 0.12197
+idx: 1000 reconstr: 0.07919  smooth: 0.06646  ssim: 0.38366  total: 0.12752
+idx: 1200 reconstr: 0.08732  smooth: 0.06078  ssim: 0.49096  total: 0.15030
+idx: 1400 reconstr: 0.09112  smooth: 0.06398  ssim: 0.48116  total: 0.15218
+idx: 1600 reconstr: 0.12623  smooth: 0.06245  ssim: 0.68268  total: 0.21219
+=====================================
+best loss: 260.83539739996195
+=====================================
+Epoch: 26 train_loss: 0.15962998616888735 time: 483.185 s
+============================== epoch: 27
+idx:    0 reconstr: 0.16892  smooth: 0.06207  ssim: 0.85488  total: 0.27430
+idx:  200 reconstr: 0.05389  smooth: 0.05914  ssim: 0.25923  total: 0.08706
+idx:  400 reconstr: 0.18295  smooth: 0.06225  ssim: 0.71097  total: 0.26465
+idx:  600 reconstr: 0.07766  smooth: 0.06543  ssim: 0.30275  total: 0.11404
+idx:  800 reconstr: 0.07681  smooth: 0.06456  ssim: 0.37708  total: 0.12444
+idx: 1000 reconstr: 0.06089  smooth: 0.06662  ssim: 0.21930  total: 0.08731
+idx: 1200 reconstr: 0.07130  smooth: 0.06124  ssim: 0.44980  total: 0.13052
+idx: 1400 reconstr: 0.12768  smooth: 0.06284  ssim: 0.62191  total: 0.20433
+idx: 1600 reconstr: 0.10530  smooth: 0.06988  ssim: 0.48360  total: 0.16484
+=====================================
+best loss: 256.942553691566
+=====================================
+Epoch: 27 train_loss: 0.15724758487855936 time: 484.684 s
+============================== epoch: 28
+idx:    0 reconstr: 0.10810  smooth: 0.06179  ssim: 0.61088  total: 0.18598
+idx:  200 reconstr: 0.15669  smooth: 0.05705  ssim: 0.62607  total: 0.22938
+idx:  400 reconstr: 0.07259  smooth: 0.06100  ssim: 0.30055  total: 0.10922
+idx:  600 reconstr: 0.09944  smooth: 0.06597  ssim: 0.50647  total: 0.16313
+idx:  800 reconstr: 0.10986  smooth: 0.07130  ssim: 0.46588  total: 0.16612
+idx: 1000 reconstr: 0.07141  smooth: 0.05906  ssim: 0.27940  total: 0.10497
+idx: 1200 reconstr: 0.07286  smooth: 0.06388  ssim: 0.31988  total: 0.11247
+idx: 1400 reconstr: 0.10725  smooth: 0.06188  ssim: 0.56038  total: 0.17769
+idx: 1600 reconstr: 0.09705  smooth: 0.06334  ssim: 0.40209  total: 0.14534
+=====================================
+best loss: 256.6084207445383
+=====================================
+Epoch: 28 train_loss: 0.15704309715088025 time: 482.787 s
+============================== epoch: 29
+idx:    0 reconstr: 0.17101  smooth: 0.06229  ssim: 0.67928  total: 0.24974
+idx:  200 reconstr: 0.08201  smooth: 0.06408  ssim: 0.31740  total: 0.11988
+idx:  400 reconstr: 0.06098  smooth: 0.06290  ssim: 0.26900  total: 0.09470
+idx:  600 reconstr: 0.09312  smooth: 0.06540  ssim: 0.47859  total: 0.15356
+idx:  800 reconstr: 0.09061  smooth: 0.06345  ssim: 0.47627  total: 0.15099
+idx: 1000 reconstr: 0.16923  smooth: 0.06021  ssim: 0.73167  total: 0.25600
+idx: 1200 reconstr: 0.08733  smooth: 0.06200  ssim: 0.30439  total: 0.12237
+idx: 1400 reconstr: 0.08329  smooth: 0.06938  ssim: 0.32267  total: 0.12198
+idx: 1600 reconstr: 0.15033  smooth: 0.06453  ssim: 0.70914  total: 0.23674
+=====================================
+best loss: 251.91659031063318
+=====================================
+Epoch: 29 train_loss: 0.15417171989634834 time: 482.5 s
+============================== epoch: 30
+idx:    0 reconstr: 0.09624  smooth: 0.06424  ssim: 0.51131  total: 0.16107
+idx:  200 reconstr: 0.13817  smooth: 0.06202  ssim: 0.72421  total: 0.22856
+idx:  400 reconstr: 0.10244  smooth: 0.06745  ssim: 0.48278  total: 0.16219
+idx:  600 reconstr: 0.08932  smooth: 0.06307  ssim: 0.39991  total: 0.13843
+idx:  800 reconstr: 0.07007  smooth: 0.06352  ssim: 0.32784  total: 0.11127
+idx: 1000 reconstr: 0.09732  smooth: 0.07374  ssim: 0.49528  total: 0.15996
+idx: 1200 reconstr: 0.13087  smooth: 0.06029  ssim: 0.70237  total: 0.21901
+idx: 1400 reconstr: 0.07212  smooth: 0.06142  ssim: 0.29989  total: 0.10874
+idx: 1600 reconstr: 0.07950  smooth: 0.06578  ssim: 0.37009  total: 0.12572
+=====================================
+best loss: 249.86978644132614
+=====================================
+Epoch: 30 train_loss: 0.152919085949404 time: 482.608 s
+============================== epoch: 31
+idx:    0 reconstr: 0.14435  smooth: 0.06562  ssim: 0.83493  total: 0.25056
+idx:  200 reconstr: 0.15187  smooth: 0.07114  ssim: 0.67917  total: 0.23381
+idx:  400 reconstr: 0.10275  smooth: 0.06095  ssim: 0.50473  total: 0.16548
+idx:  600 reconstr: 0.09087  smooth: 0.06945  ssim: 0.39058  total: 0.13861
+idx:  800 reconstr: 0.07422  smooth: 0.06099  ssim: 0.33171  total: 0.11529
+idx: 1000 reconstr: 0.14402  smooth: 0.06319  ssim: 0.75663  total: 0.23844
+idx: 1200 reconstr: 0.11905  smooth: 0.06224  ssim: 0.72083  total: 0.21181
+idx: 1400 reconstr: 0.13019  smooth: 0.06054  ssim: 0.66632  total: 0.21303
+idx: 1600 reconstr: 0.09584  smooth: 0.06461  ssim: 0.35697  total: 0.13760
+Epoch: 31 train_loss: 0.15335062185856382 time: 483.634 s
+============================== epoch: 32
+idx:    0 reconstr: 0.06377  smooth: 0.06263  ssim: 0.32888  total: 0.10604
+idx:  200 reconstr: 0.20769  smooth: 0.06054  ssim: 0.72316  total: 0.28744
+idx:  400 reconstr: 0.06711  smooth: 0.06498  ssim: 0.31451  total: 0.10682
+idx:  600 reconstr: 0.07784  smooth: 0.06178  ssim: 0.38099  total: 0.12578
+idx:  800 reconstr: 0.10454  smooth: 0.06653  ssim: 0.50192  total: 0.16681
+idx: 1000 reconstr: 0.06914  smooth: 0.06717  ssim: 0.30211  total: 0.10678
+idx: 1200 reconstr: 0.07052  smooth: 0.06045  ssim: 0.38379  total: 0.11993
+idx: 1400 reconstr: 0.06217  smooth: 0.07061  ssim: 0.27375  total: 0.09673
+idx: 1600 reconstr: 0.08737  smooth: 0.07021  ssim: 0.38846  total: 0.13534
+=====================================
+best loss: 247.41325417160988
+=====================================
+Epoch: 32 train_loss: 0.15141570022742343 time: 482.181 s
+============================== epoch: 33
+idx:    0 reconstr: 0.05927  smooth: 0.07139  ssim: 0.24609  total: 0.09015
+idx:  200 reconstr: 0.07543  smooth: 0.06507  ssim: 0.41824  total: 0.12946
+idx:  400 reconstr: 0.09263  smooth: 0.07484  ssim: 0.41610  total: 0.14414
+idx:  600 reconstr: 0.08887  smooth: 0.06811  ssim: 0.33431  total: 0.12841
+idx:  800 reconstr: 0.08996  smooth: 0.06588  ssim: 0.38585  total: 0.13698
+idx: 1000 reconstr: 0.07188  smooth: 0.07145  ssim: 0.26587  total: 0.10384
+idx: 1200 reconstr: 0.08981  smooth: 0.06413  ssim: 0.42521  total: 0.14268
+idx: 1400 reconstr: 0.12450  smooth: 0.06404  ssim: 0.37686  total: 0.16491
+idx: 1600 reconstr: 0.06420  smooth: 0.06471  ssim: 0.27589  total: 0.09855
+=====================================
+best loss: 246.50499366223812
+=====================================
+Epoch: 33 train_loss: 0.1508598492424958 time: 485.342 s
+============================== epoch: 34
+idx:    0 reconstr: 0.08691  smooth: 0.06465  ssim: 0.48066  total: 0.14856
+idx:  200 reconstr: 0.09540  smooth: 0.06866  ssim: 0.41816  total: 0.14656
+idx:  400 reconstr: 0.08180  smooth: 0.06766  ssim: 0.36156  total: 0.12647
+idx:  600 reconstr: 0.11620  smooth: 0.06695  ssim: 0.69381  total: 0.20552
+idx:  800 reconstr: 0.08060  smooth: 0.06909  ssim: 0.33922  total: 0.12216
+idx: 1000 reconstr: 0.08151  smooth: 0.06987  ssim: 0.38854  total: 0.13036
+idx: 1200 reconstr: 0.06589  smooth: 0.06403  ssim: 0.37292  total: 0.11450
+idx: 1400 reconstr: 0.07281  smooth: 0.06218  ssim: 0.32832  total: 0.11362
+idx: 1600 reconstr: 0.07681  smooth: 0.06748  ssim: 0.35014  total: 0.12051
+=====================================
+best loss: 244.96462206542492
+=====================================
+Epoch: 34 train_loss: 0.1499171493668451 time: 492.447 s
+============================== epoch: 35
+idx:    0 reconstr: 0.13374  smooth: 0.07033  ssim: 0.52576  total: 0.19536
+idx:  200 reconstr: 0.06447  smooth: 0.06643  ssim: 0.26465  total: 0.09715
+idx:  400 reconstr: 0.09613  smooth: 0.06088  ssim: 0.35634  total: 0.13760
+idx:  600 reconstr: 0.17102  smooth: 0.06572  ssim: 0.54900  total: 0.23035
+idx:  800 reconstr: 0.27950  smooth: 0.06484  ssim: 0.91542  total: 0.37748
+idx: 1000 reconstr: 0.12406  smooth: 0.07279  ssim: 0.62945  total: 0.20278
+idx: 1200 reconstr: 0.07812  smooth: 0.05652  ssim: 0.44329  total: 0.13516
+idx: 1400 reconstr: 0.13961  smooth: 0.06573  ssim: 0.79911  total: 0.24117
+idx: 1600 reconstr: 0.14530  smooth: 0.06851  ssim: 0.74645  total: 0.23821
+=====================================
+best loss: 241.5044735148549
+=====================================
+Epoch: 35 train_loss: 0.14779955539464804 time: 484.368 s
+============================== epoch: 36
+idx:    0 reconstr: 0.12209  smooth: 0.06984  ssim: 0.62194  total: 0.19986
+idx:  200 reconstr: 0.09880  smooth: 0.06507  ssim: 0.48976  total: 0.16005
+idx:  400 reconstr: 0.10849  smooth: 0.06601  ssim: 0.34297  total: 0.14630
+idx:  600 reconstr: 0.10690  smooth: 0.06957  ssim: 0.41163  total: 0.15539
+idx:  800 reconstr: 0.13528  smooth: 0.06247  ssim: 0.63086  total: 0.21212
+idx: 1000 reconstr: 0.10424  smooth: 0.07431  ssim: 0.51847  total: 0.16935
+idx: 1200 reconstr: 0.06114  smooth: 0.06459  ssim: 0.27902  total: 0.09641
+idx: 1400 reconstr: 0.08003  smooth: 0.06942  ssim: 0.33667  total: 0.12131
+idx: 1600 reconstr: 0.10745  smooth: 0.06570  ssim: 0.48794  total: 0.16715
+Epoch: 36 train_loss: 0.14819901392794005 time: 484.253 s
+============================== epoch: 37
+idx:    0 reconstr: 0.10293  smooth: 0.06575  ssim: 0.47951  total: 0.16204
+idx:  200 reconstr: 0.09512  smooth: 0.06374  ssim: 0.49889  total: 0.15824
+idx:  400 reconstr: 0.10021  smooth: 0.06624  ssim: 0.33040  total: 0.13739
+idx:  600 reconstr: 0.07877  smooth: 0.07088  ssim: 0.34528  total: 0.12158
+idx:  800 reconstr: 0.10502  smooth: 0.06407  ssim: 0.56335  total: 0.17633
+idx: 1000 reconstr: 0.06660  smooth: 0.06222  ssim: 0.35382  total: 0.11217
+idx: 1200 reconstr: 0.09301  smooth: 0.07215  ssim: 0.44547  total: 0.14877
+idx: 1400 reconstr: 0.07197  smooth: 0.06890  ssim: 0.24564  total: 0.10078
+idx: 1600 reconstr: 0.07313  smooth: 0.06994  ssim: 0.34441  total: 0.11662
+=====================================
+best loss: 240.57132054120302
+=====================================
+Epoch: 37 train_loss: 0.1472284703434535 time: 486.24 s
+============================== epoch: 38
+idx:    0 reconstr: 0.07439  smooth: 0.06760  ssim: 0.29470  total: 0.11014
+idx:  200 reconstr: 0.05640  smooth: 0.06755  ssim: 0.22489  total: 0.08437
+idx:  400 reconstr: 0.08373  smooth: 0.07298  ssim: 0.37112  total: 0.12975
+idx:  600 reconstr: 0.12484  smooth: 0.06820  ssim: 0.66577  total: 0.20870
+idx:  800 reconstr: 0.12190  smooth: 0.06097  ssim: 0.64635  total: 0.20301
+idx: 1000 reconstr: 0.08010  smooth: 0.07249  ssim: 0.28627  total: 0.11392
+idx: 1200 reconstr: 0.05602  smooth: 0.06621  ssim: 0.28217  total: 0.09259
+idx: 1400 reconstr: 0.10237  smooth: 0.05766  ssim: 0.60857  total: 0.18060
+idx: 1600 reconstr: 0.07409  smooth: 0.06831  ssim: 0.31023  total: 0.11225
+=====================================
+best loss: 239.39427807927132
+=====================================
+Epoch: 38 train_loss: 0.1465081261195051 time: 487.948 s
+============================== epoch: 39
+idx:    0 reconstr: 0.08697  smooth: 0.05998  ssim: 0.51356  total: 0.15336
+idx:  200 reconstr: 0.08546  smooth: 0.06861  ssim: 0.43808  total: 0.14110
+idx:  400 reconstr: 0.07189  smooth: 0.06567  ssim: 0.35406  total: 0.11684
+idx:  600 reconstr: 0.05595  smooth: 0.06009  ssim: 0.25048  total: 0.08753
+idx:  800 reconstr: 0.08321  smooth: 0.07344  ssim: 0.30932  total: 0.12006
+idx: 1000 reconstr: 0.09976  smooth: 0.07036  ssim: 0.45254  total: 0.15549
+idx: 1200 reconstr: 0.09663  smooth: 0.07236  ssim: 0.41426  total: 0.14717
+idx: 1400 reconstr: 0.11178  smooth: 0.07071  ssim: 0.63211  total: 0.19266
+idx: 1600 reconstr: 0.08931  smooth: 0.06919  ssim: 0.40479  total: 0.13940
+=====================================
+best loss: 236.68824610114098
+=====================================
+Epoch: 39 train_loss: 0.1448520477975159 time: 486.599 s
+============================== epoch: 40
+idx:    0 reconstr: 0.11563  smooth: 0.07595  ssim: 0.56882  total: 0.18665
+idx:  200 reconstr: 0.05906  smooth: 0.06010  ssim: 0.27551  total: 0.09393
+idx:  400 reconstr: 0.08134  smooth: 0.06957  ssim: 0.40925  total: 0.13331
+idx:  600 reconstr: 0.06633  smooth: 0.06079  ssim: 0.28784  total: 0.10199
+idx:  800 reconstr: 0.08897  smooth: 0.07033  ssim: 0.37607  total: 0.13485
+idx: 1000 reconstr: 0.08606  smooth: 0.07487  ssim: 0.32432  total: 0.12479
+idx: 1200 reconstr: 0.09495  smooth: 0.08119  ssim: 0.41311  total: 0.14592
+idx: 1400 reconstr: 0.12606  smooth: 0.06119  ssim: 0.85127  total: 0.23729
+idx: 1600 reconstr: 0.11222  smooth: 0.06601  ssim: 0.56421  total: 0.18266
+Epoch: 40 train_loss: 0.14505331206843347 time: 484.708 s
+============================== epoch: 41
+idx:    0 reconstr: 0.08326  smooth: 0.07322  ssim: 0.37326  total: 0.12969
+idx:  200 reconstr: 0.09613  smooth: 0.06338  ssim: 0.57455  total: 0.17043
+idx:  400 reconstr: 0.10672  smooth: 0.06362  ssim: 0.56171  total: 0.17752
+idx:  600 reconstr: 0.06910  smooth: 0.06746  ssim: 0.26083  total: 0.10056
+idx:  800 reconstr: 0.09672  smooth: 0.06113  ssim: 0.49022  total: 0.15819
+idx: 1000 reconstr: 0.11973  smooth: 0.07016  ssim: 0.66275  total: 0.20399
+idx: 1200 reconstr: 0.08337  smooth: 0.06868  ssim: 0.35215  total: 0.12643
+idx: 1400 reconstr: 0.07736  smooth: 0.06334  ssim: 0.41054  total: 0.12987
+idx: 1600 reconstr: 0.06639  smooth: 0.06688  ssim: 0.29506  total: 0.10337
+Epoch: 41 train_loss: 0.14491756136598682 time: 488.747 s
+============================== epoch: 42
+idx:    0 reconstr: 0.08734  smooth: 0.06326  ssim: 0.38751  total: 0.13489
+idx:  200 reconstr: 0.07392  smooth: 0.06350  ssim: 0.32303  total: 0.11383
+idx:  400 reconstr: 0.12515  smooth: 0.06895  ssim: 0.54499  total: 0.19088
+idx:  600 reconstr: 0.05870  smooth: 0.06427  ssim: 0.27740  total: 0.09407
+idx:  800 reconstr: 0.05808  smooth: 0.06862  ssim: 0.22331  total: 0.08561
+idx: 1000 reconstr: 0.10079  smooth: 0.06459  ssim: 0.39616  total: 0.14768
+idx: 1200 reconstr: 0.05317  smooth: 0.06731  ssim: 0.23538  total: 0.08320
+idx: 1400 reconstr: 0.11642  smooth: 0.06615  ssim: 0.51396  total: 0.17870
+idx: 1600 reconstr: 0.12861  smooth: 0.06045  ssim: 0.71009  total: 0.21825
+=====================================
+best loss: 234.84343446046114
+=====================================
+Epoch: 42 train_loss: 0.14372303210554538 time: 487.24 s
+============================== epoch: 43
+idx:    0 reconstr: 0.17775  smooth: 0.06569  ssim: 0.86059  total: 0.28280
+idx:  200 reconstr: 0.15039  smooth: 0.06900  ssim: 0.60225  total: 0.22093
+idx:  400 reconstr: 0.10173  smooth: 0.06365  ssim: 0.33098  total: 0.13866
+idx:  600 reconstr: 0.10704  smooth: 0.06103  ssim: 0.45699  total: 0.16197
+idx:  800 reconstr: 0.08528  smooth: 0.06824  ssim: 0.35076  total: 0.12783
+idx: 1000 reconstr: 0.12634  smooth: 0.06845  ssim: 0.72137  total: 0.21833
+idx: 1200 reconstr: 0.06821  smooth: 0.06663  ssim: 0.21499  total: 0.09290
+idx: 1400 reconstr: 0.07694  smooth: 0.06823  ssim: 0.40706  total: 0.12919
+idx: 1600 reconstr: 0.07192  smooth: 0.07281  ssim: 0.34715  total: 0.11612
+=====================================
+best loss: 233.25687170773745
+=====================================
+Epoch: 43 train_loss: 0.14275206346862757 time: 490.106 s
+============================== epoch: 44
+idx:    0 reconstr: 0.09486  smooth: 0.06409  ssim: 0.52549  total: 0.16202
+idx:  200 reconstr: 0.05988  smooth: 0.07501  ssim: 0.28459  total: 0.09659
+idx:  400 reconstr: 0.10470  smooth: 0.06663  ssim: 0.53608  total: 0.17207
+idx:  600 reconstr: 0.08239  smooth: 0.06791  ssim: 0.33995  total: 0.12374
+idx:  800 reconstr: 0.06372  smooth: 0.07238  ssim: 0.28109  total: 0.09922
+idx: 1000 reconstr: 0.07979  smooth: 0.07066  ssim: 0.34274  total: 0.12206
+idx: 1200 reconstr: 0.08095  smooth: 0.06915  ssim: 0.31256  total: 0.11846
+idx: 1400 reconstr: 0.04709  smooth: 0.07009  ssim: 0.16545  total: 0.06765
+idx: 1600 reconstr: 0.07692  smooth: 0.07795  ssim: 0.35964  total: 0.12245
+=====================================
+best loss: 230.34381122514606
+=====================================
+Epoch: 44 train_loss: 0.14096928471551165 time: 491.613 s
+============================== epoch: 45
+idx:    0 reconstr: 0.09871  smooth: 0.06153  ssim: 0.49392  total: 0.16045
+idx:  200 reconstr: 0.06491  smooth: 0.06597  ssim: 0.29912  total: 0.10268
+idx:  400 reconstr: 0.09242  smooth: 0.06578  ssim: 0.55546  total: 0.16451
+idx:  600 reconstr: 0.05834  smooth: 0.06581  ssim: 0.29605  total: 0.09663
+idx:  800 reconstr: 0.10778  smooth: 0.07240  ssim: 0.42005  total: 0.15752
+idx: 1000 reconstr: 0.06640  smooth: 0.06663  ssim: 0.32682  total: 0.10813
+idx: 1200 reconstr: 0.06739  smooth: 0.06331  ssim: 0.32888  total: 0.10915
+idx: 1400 reconstr: 0.10183  smooth: 0.06104  ssim: 0.56552  total: 0.17383
+idx: 1600 reconstr: 0.06334  smooth: 0.05868  ssim: 0.30162  total: 0.10143
+Epoch: 45 train_loss: 0.14142675715358416 time: 491.856 s
+============================== epoch: 46
+idx:    0 reconstr: 0.07704  smooth: 0.07283  ssim: 0.27112  total: 0.10907
+idx:  200 reconstr: 0.07367  smooth: 0.06221  ssim: 0.32380  total: 0.11368
+idx:  400 reconstr: 0.07220  smooth: 0.05781  ssim: 0.27390  total: 0.10477
+idx:  600 reconstr: 0.08492  smooth: 0.06780  ssim: 0.29800  total: 0.11960
+idx:  800 reconstr: 0.08187  smooth: 0.06826  ssim: 0.39265  total: 0.13122
+idx: 1000 reconstr: 0.07679  smooth: 0.06637  ssim: 0.29901  total: 0.11278
+idx: 1200 reconstr: 0.12329  smooth: 0.06798  ssim: 0.62475  total: 0.20123
+idx: 1400 reconstr: 0.05394  smooth: 0.07201  ssim: 0.24265  total: 0.08512
+idx: 1600 reconstr: 0.07706  smooth: 0.07613  ssim: 0.29689  total: 0.11308
+Epoch: 46 train_loss: 0.14102406930201203 time: 486.439 s
+============================== epoch: 47
+idx:    0 reconstr: 0.08568  smooth: 0.06432  ssim: 0.36356  total: 0.12993
+idx:  200 reconstr: 0.10028  smooth: 0.08469  ssim: 0.33391  total: 0.13871
+idx:  400 reconstr: 0.10386  smooth: 0.06207  ssim: 0.59362  total: 0.17980
+idx:  600 reconstr: 0.11399  smooth: 0.07234  ssim: 0.48107  total: 0.17194
+idx:  800 reconstr: 0.08587  smooth: 0.06404  ssim: 0.37854  total: 0.13233
+idx: 1000 reconstr: 0.09465  smooth: 0.06647  ssim: 0.33940  total: 0.13403
+idx: 1200 reconstr: 0.10709  smooth: 0.06947  ssim: 0.58879  total: 0.18212
+idx: 1400 reconstr: 0.07592  smooth: 0.06583  ssim: 0.34633  total: 0.11912
+idx: 1600 reconstr: 0.10573  smooth: 0.06330  ssim: 0.64197  total: 0.18870
+Epoch: 47 train_loss: 0.14160118108179826 time: 485.002 s
+============================== epoch: 48
+idx:    0 reconstr: 0.05730  smooth: 0.06700  ssim: 0.25929  total: 0.09028
+idx:  200 reconstr: 0.07170  smooth: 0.06770  ssim: 0.30910  total: 0.11002
+idx:  400 reconstr: 0.15960  smooth: 0.06711  ssim: 0.85254  total: 0.26623
+idx:  600 reconstr: 0.12763  smooth: 0.06796  ssim: 0.44220  total: 0.17754
+idx:  800 reconstr: 0.07261  smooth: 0.06547  ssim: 0.29254  total: 0.10822
+idx: 1000 reconstr: 0.05651  smooth: 0.07090  ssim: 0.24284  total: 0.08730
+idx: 1200 reconstr: 0.08575  smooth: 0.07209  ssim: 0.29363  total: 0.11982
+idx: 1400 reconstr: 0.14095  smooth: 0.06175  ssim: 0.54811  total: 0.20449
+idx: 1600 reconstr: 0.05723  smooth: 0.07362  ssim: 0.24254  total: 0.08797
+=====================================
+best loss: 228.17204451560974
+=====================================
+Epoch: 48 train_loss: 0.13964017412216018 time: 484.602 s
+============================== epoch: 49
+idx:    0 reconstr: 0.10977  smooth: 0.07377  ssim: 0.52075  total: 0.17437
+idx:  200 reconstr: 0.05716  smooth: 0.06609  ssim: 0.22244  total: 0.08459
+idx:  400 reconstr: 0.10228  smooth: 0.06764  ssim: 0.32481  total: 0.13836
+idx:  600 reconstr: 0.04653  smooth: 0.06738  ssim: 0.16593  total: 0.06713
+idx:  800 reconstr: 0.06450  smooth: 0.05904  ssim: 0.29920  total: 0.10207
+idx: 1000 reconstr: 0.08028  smooth: 0.07053  ssim: 0.36610  total: 0.12597
+idx: 1200 reconstr: 0.08359  smooth: 0.06292  ssim: 0.45669  total: 0.14207
+idx: 1400 reconstr: 0.06193  smooth: 0.07238  ssim: 0.24288  total: 0.09196
+idx: 1600 reconstr: 0.09363  smooth: 0.06499  ssim: 0.41866  total: 0.14498
+=====================================
+best loss: 226.94729738682508
+=====================================
+Epoch: 49 train_loss: 0.13889063487565795 time: 485.649 s
+============================== epoch: 50
+idx:    0 reconstr: 0.08957  smooth: 0.07011  ssim: 0.42130  total: 0.14214
+idx:  200 reconstr: 0.07864  smooth: 0.07146  ssim: 0.35091  total: 0.12234
+idx:  400 reconstr: 0.07326  smooth: 0.06502  ssim: 0.25968  total: 0.10382
+idx:  600 reconstr: 0.07087  smooth: 0.07078  ssim: 0.22663  total: 0.09706
+idx:  800 reconstr: 0.06836  smooth: 0.06494  ssim: 0.41227  total: 0.12255
+idx: 1000 reconstr: 0.05258  smooth: 0.06564  ssim: 0.22390  total: 0.08090
+idx: 1200 reconstr: 0.08593  smooth: 0.06575  ssim: 0.36341  total: 0.13019
+idx: 1400 reconstr: 0.10007  smooth: 0.06981  ssim: 0.36299  total: 0.14230
+idx: 1600 reconstr: 0.07672  smooth: 0.06155  ssim: 0.29543  total: 0.11199
+Epoch: 50 train_loss: 0.13934724012132155 time: 485.741 s
+============================== epoch: 51
+idx:    0 reconstr: 0.17097  smooth: 0.07035  ssim: 0.82099  total: 0.27128
+idx:  200 reconstr: 0.07693  smooth: 0.06461  ssim: 0.35651  total: 0.12145
+idx:  400 reconstr: 0.10573  smooth: 0.08856  ssim: 0.39208  total: 0.15223
+idx:  600 reconstr: 0.15368  smooth: 0.05940  ssim: 0.65543  total: 0.23131
+idx:  800 reconstr: 0.10572  smooth: 0.07320  ssim: 0.57860  total: 0.17958
+idx: 1000 reconstr: 0.06977  smooth: 0.06776  ssim: 0.27128  total: 0.10271
+idx: 1200 reconstr: 0.09082  smooth: 0.06346  ssim: 0.56345  total: 0.16425
+idx: 1400 reconstr: 0.05987  smooth: 0.06973  ssim: 0.23998  total: 0.08968
+idx: 1600 reconstr: 0.10936  smooth: 0.06379  ssim: 0.59819  total: 0.18523
+=====================================
+best loss: 224.62488447129726
+=====================================
+Epoch: 51 train_loss: 0.13746932954179758 time: 489.614 s
+============================== epoch: 52
+idx:    0 reconstr: 0.13582  smooth: 0.06372  ssim: 0.47288  total: 0.18893
+idx:  200 reconstr: 0.09218  smooth: 0.06199  ssim: 0.36764  total: 0.13598
+idx:  400 reconstr: 0.11531  smooth: 0.06922  ssim: 0.36128  total: 0.15497
+idx:  600 reconstr: 0.27100  smooth: 0.05411  ssim: 0.90124  total: 0.36770
+idx:  800 reconstr: 0.08905  smooth: 0.07857  ssim: 0.37092  total: 0.13448
+idx: 1000 reconstr: 0.08381  smooth: 0.07123  ssim: 0.39972  total: 0.13405
+idx: 1200 reconstr: 0.14250  smooth: 0.06057  ssim: 0.82883  total: 0.24787
+idx: 1400 reconstr: 0.06197  smooth: 0.06786  ssim: 0.27059  total: 0.09598
+idx: 1600 reconstr: 0.07738  smooth: 0.06708  ssim: 0.33036  total: 0.11801
+Epoch: 52 train_loss: 0.1388682397002653 time: 486.344 s
+============================== epoch: 53
+idx:    0 reconstr: 0.05009  smooth: 0.06447  ssim: 0.20296  total: 0.07560
+idx:  200 reconstr: 0.07842  smooth: 0.07479  ssim: 0.28002  total: 0.11165
+idx:  400 reconstr: 0.08043  smooth: 0.06969  ssim: 0.45224  total: 0.13899
+idx:  600 reconstr: 0.14761  smooth: 0.06317  ssim: 0.79779  total: 0.24767
+idx:  800 reconstr: 0.09043  smooth: 0.06098  ssim: 0.44494  total: 0.14605
+idx: 1000 reconstr: 0.09627  smooth: 0.07544  ssim: 0.36846  total: 0.14012
+idx: 1200 reconstr: 0.09097  smooth: 0.07130  ssim: 0.40230  total: 0.14052
+idx: 1400 reconstr: 0.08193  smooth: 0.07468  ssim: 0.36902  total: 0.12798
+idx: 1600 reconstr: 0.09887  smooth: 0.05945  ssim: 0.47795  total: 0.15811
+Epoch: 53 train_loss: 0.13784367215421822 time: 486.314 s
+============================== epoch: 54
+idx:    0 reconstr: 0.08492  smooth: 0.07097  ssim: 0.29991  total: 0.12001
+idx:  200 reconstr: 0.12127  smooth: 0.06410  ssim: 0.65365  total: 0.20369
+idx:  400 reconstr: 0.16719  smooth: 0.05321  ssim: 0.90209  total: 0.27956
+idx:  600 reconstr: 0.06802  smooth: 0.06332  ssim: 0.26909  total: 0.10071
+idx:  800 reconstr: 0.07787  smooth: 0.06632  ssim: 0.29091  total: 0.11248
+idx: 1000 reconstr: 0.06938  smooth: 0.06821  ssim: 0.31423  total: 0.10883
+idx: 1200 reconstr: 0.06872  smooth: 0.06458  ssim: 0.27717  total: 0.10257
+idx: 1400 reconstr: 0.08681  smooth: 0.06424  ssim: 0.44487  total: 0.14309
+idx: 1600 reconstr: 0.12495  smooth: 0.06687  ssim: 0.54273  total: 0.19029
+Epoch: 54 train_loss: 0.13765474927532995 time: 488.408 s
+============================== epoch: 55
+idx:    0 reconstr: 0.08653  smooth: 0.06290  ssim: 0.50466  total: 0.15176
+idx:  200 reconstr: 0.13351  smooth: 0.06407  ssim: 0.71124  total: 0.22273
+idx:  400 reconstr: 0.04756  smooth: 0.07167  ssim: 0.16525  total: 0.06808
+idx:  600 reconstr: 0.05380  smooth: 0.06861  ssim: 0.22828  total: 0.08272
+idx:  800 reconstr: 0.07783  smooth: 0.07615  ssim: 0.32747  total: 0.11832
+idx: 1000 reconstr: 0.05133  smooth: 0.06866  ssim: 0.19114  total: 0.07504
+idx: 1200 reconstr: 0.11467  smooth: 0.06372  ssim: 0.50115  total: 0.17519
+idx: 1400 reconstr: 0.09647  smooth: 0.07023  ssim: 0.44894  total: 0.15215
+idx: 1600 reconstr: 0.09955  smooth: 0.07270  ssim: 0.47732  total: 0.15913
+=====================================
+best loss: 222.59410928934813
+=====================================
+Epoch: 55 train_loss: 0.13622650507304046 time: 486.586 s
+============================== epoch: 56
+idx:    0 reconstr: 0.07461  smooth: 0.07321  ssim: 0.36093  total: 0.12049
+idx:  200 reconstr: 0.14100  smooth: 0.06612  ssim: 0.56431  total: 0.20714
+idx:  400 reconstr: 0.07622  smooth: 0.07469  ssim: 0.34403  total: 0.11938
+idx:  600 reconstr: 0.08186  smooth: 0.06826  ssim: 0.36093  total: 0.12645
+idx:  800 reconstr: 0.08464  smooth: 0.07239  ssim: 0.30423  total: 0.12048
+idx: 1000 reconstr: 0.07720  smooth: 0.06671  ssim: 0.31168  total: 0.11504
+idx: 1200 reconstr: 0.08480  smooth: 0.06913  ssim: 0.32246  total: 0.12321
+idx: 1400 reconstr: 0.07109  smooth: 0.07191  ssim: 0.31533  total: 0.11061
+idx: 1600 reconstr: 0.06100  smooth: 0.06443  ssim: 0.29261  total: 0.09832
+=====================================
+best loss: 221.00985502451658
+=====================================
+Epoch: 56 train_loss: 0.1352569492194104 time: 487.706 s
+============================== epoch: 57
+idx:    0 reconstr: 0.09702  smooth: 0.06462  ssim: 0.41508  total: 0.14732
+idx:  200 reconstr: 0.06442  smooth: 0.06778  ssim: 0.32864  total: 0.10676
+idx:  400 reconstr: 0.05949  smooth: 0.06540  ssim: 0.23211  total: 0.08800
+idx:  600 reconstr: 0.07611  smooth: 0.07747  ssim: 0.38967  total: 0.12625
+idx:  800 reconstr: 0.07889  smooth: 0.06865  ssim: 0.35922  total: 0.12369
+idx: 1000 reconstr: 0.07788  smooth: 0.06504  ssim: 0.35268  total: 0.12171
+idx: 1200 reconstr: 0.09026  smooth: 0.06009  ssim: 0.50520  total: 0.15491
+idx: 1400 reconstr: 0.07113  smooth: 0.07907  ssim: 0.33081  total: 0.11324
+idx: 1600 reconstr: 0.06293  smooth: 0.06902  ssim: 0.26676  total: 0.09627
+Epoch: 57 train_loss: 0.1355074214768417 time: 487.344 s
+============================== epoch: 58
+idx:    0 reconstr: 0.09839  smooth: 0.06878  ssim: 0.49922  total: 0.16127
+idx:  200 reconstr: 0.06944  smooth: 0.06108  ssim: 0.36230  total: 0.11581
+idx:  400 reconstr: 0.06672  smooth: 0.07332  ssim: 0.27732  total: 0.10124
+idx:  600 reconstr: 0.12184  smooth: 0.06500  ssim: 0.56803  total: 0.19137
+idx:  800 reconstr: 0.04955  smooth: 0.06994  ssim: 0.23428  total: 0.08006
+idx: 1000 reconstr: 0.08555  smooth: 0.06073  ssim: 0.32006  total: 0.12316
+idx: 1200 reconstr: 0.09841  smooth: 0.06106  ssim: 0.53023  total: 0.16563
+idx: 1400 reconstr: 0.08579  smooth: 0.06472  ssim: 0.42683  total: 0.13953
+idx: 1600 reconstr: 0.06728  smooth: 0.06847  ssim: 0.29365  total: 0.10397
+Epoch: 58 train_loss: 0.135428556679968 time: 487.625 s
+============================== epoch: 59
+idx:    0 reconstr: 0.07001  smooth: 0.06881  ssim: 0.31235  total: 0.10911
+idx:  200 reconstr: 0.06208  smooth: 0.06599  ssim: 0.24002  total: 0.09141
+idx:  400 reconstr: 0.09192  smooth: 0.07355  ssim: 0.35376  total: 0.13414
+idx:  600 reconstr: 0.09030  smooth: 0.06632  ssim: 0.39080  total: 0.13803
+idx:  800 reconstr: 0.07239  smooth: 0.06964  ssim: 0.28249  total: 0.10669
+idx: 1000 reconstr: 0.09106  smooth: 0.06578  ssim: 0.49858  total: 0.15482
+idx: 1200 reconstr: 0.10696  smooth: 0.06830  ssim: 0.46198  total: 0.16294
+idx: 1400 reconstr: 0.06630  smooth: 0.07504  ssim: 0.28077  total: 0.10148
+idx: 1600 reconstr: 0.08919  smooth: 0.07096  ssim: 0.42968  total: 0.14311
+=====================================
+best loss: 219.655351690948
+=====================================
+Epoch: 59 train_loss: 0.1344279998108617 time: 484.086 s
+============================== epoch: 60
+idx:    0 reconstr: 0.10708  smooth: 0.07953  ssim: 0.46663  total: 0.16420
+idx:  200 reconstr: 0.06794  smooth: 0.07514  ssim: 0.29554  total: 0.10508
+idx:  400 reconstr: 0.08918  smooth: 0.06604  ssim: 0.24949  total: 0.11587
+idx:  600 reconstr: 0.04557  smooth: 0.06064  ssim: 0.18052  total: 0.06824
+idx:  800 reconstr: 0.06001  smooth: 0.07434  ssim: 0.24329  total: 0.09047
+idx: 1000 reconstr: 0.07169  smooth: 0.06796  ssim: 0.25871  total: 0.10246
+idx: 1200 reconstr: 0.05019  smooth: 0.06929  ssim: 0.21216  total: 0.07726
+idx: 1400 reconstr: 0.06776  smooth: 0.07762  ssim: 0.26677  total: 0.10072
+idx: 1600 reconstr: 0.12374  smooth: 0.06502  ssim: 0.58218  total: 0.19510
+Epoch: 60 train_loss: 0.135083777727411 time: 483.533 s
+============================== epoch: 61
+idx:    0 reconstr: 0.06953  smooth: 0.06202  ssim: 0.35075  total: 0.11420
+idx:  200 reconstr: 0.06326  smooth: 0.06975  ssim: 0.30410  total: 0.10217
+idx:  400 reconstr: 0.07649  smooth: 0.06973  ssim: 0.35264  total: 0.12070
+idx:  600 reconstr: 0.07168  smooth: 0.07216  ssim: 0.29774  total: 0.10847
+idx:  800 reconstr: 0.09128  smooth: 0.07128  ssim: 0.27942  total: 0.12235
+idx: 1000 reconstr: 0.08060  smooth: 0.06254  ssim: 0.25382  total: 0.10909
+idx: 1200 reconstr: 0.08333  smooth: 0.06295  ssim: 0.22702  total: 0.10740
+idx: 1400 reconstr: 0.04810  smooth: 0.06816  ssim: 0.19308  total: 0.07257
+idx: 1600 reconstr: 0.08441  smooth: 0.07003  ssim: 0.31806  total: 0.12226
+Epoch: 61 train_loss: 0.1344800944664633 time: 489.212 s
+============================== epoch: 62
+idx:    0 reconstr: 0.14872  smooth: 0.06771  ssim: 0.82814  total: 0.25334
+idx:  200 reconstr: 0.04967  smooth: 0.07091  ssim: 0.18172  total: 0.07231
+idx:  400 reconstr: 0.11155  smooth: 0.05911  ssim: 0.45503  total: 0.16544
+idx:  600 reconstr: 0.06234  smooth: 0.06689  ssim: 0.23736  total: 0.09127
+idx:  800 reconstr: 0.10724  smooth: 0.07147  ssim: 0.57751  total: 0.18064
+idx: 1000 reconstr: 0.13787  smooth: 0.06685  ssim: 0.76153  total: 0.23409
+idx: 1200 reconstr: 0.09377  smooth: 0.07098  ssim: 0.42593  total: 0.14643
+idx: 1400 reconstr: 0.10962  smooth: 0.06797  ssim: 0.59367  total: 0.18495
+idx: 1600 reconstr: 0.10192  smooth: 0.07167  ssim: 0.48454  total: 0.16218
+=====================================
+best loss: 218.87490617111325
+=====================================
+Epoch: 62 train_loss: 0.1339503709737535 time: 487.995 s
+============================== epoch: 63
+idx:    0 reconstr: 0.08300  smooth: 0.06419  ssim: 0.39174  total: 0.13188
+idx:  200 reconstr: 0.05238  smooth: 0.06799  ssim: 0.20489  total: 0.07798
+idx:  400 reconstr: 0.06820  smooth: 0.07460  ssim: 0.24707  total: 0.09801
+idx:  600 reconstr: 0.07523  smooth: 0.07568  ssim: 0.33380  total: 0.11705
+idx:  800 reconstr: 0.08304  smooth: 0.06512  ssim: 0.41797  total: 0.13588
+idx: 1000 reconstr: 0.06996  smooth: 0.07086  ssim: 0.31686  total: 0.10983
+idx: 1200 reconstr: 0.12801  smooth: 0.06785  ssim: 0.41631  total: 0.17397
+idx: 1400 reconstr: 0.06951  smooth: 0.06545  ssim: 0.30330  total: 0.10720
+idx: 1600 reconstr: 0.11372  smooth: 0.07090  ssim: 0.55668  total: 0.18300
+=====================================
+best loss: 217.4355577081442
+=====================================
+Epoch: 63 train_loss: 0.13306949676141014 time: 484.949 s
+============================== epoch: 64
+idx:    0 reconstr: 0.07550  smooth: 0.06789  ssim: 0.28606  total: 0.10980
+idx:  200 reconstr: 0.09703  smooth: 0.06714  ssim: 0.53401  total: 0.16526
+idx:  400 reconstr: 0.08294  smooth: 0.06660  ssim: 0.39074  total: 0.13178
+idx:  600 reconstr: 0.09347  smooth: 0.06994  ssim: 0.44507  total: 0.14901
+idx:  800 reconstr: 0.07262  smooth: 0.06437  ssim: 0.34403  total: 0.11591
+idx: 1000 reconstr: 0.05804  smooth: 0.07183  ssim: 0.26472  total: 0.09191
+idx: 1200 reconstr: 0.07946  smooth: 0.06916  ssim: 0.38733  total: 0.12841
+idx: 1400 reconstr: 0.07919  smooth: 0.06506  ssim: 0.31895  total: 0.11776
+idx: 1600 reconstr: 0.06960  smooth: 0.06371  ssim: 0.35671  total: 0.11522
+Epoch: 64 train_loss: 0.13360834141766864 time: 484.815 s
+============================== epoch: 65
+idx:    0 reconstr: 0.08966  smooth: 0.06509  ssim: 0.44608  total: 0.14573
+idx:  200 reconstr: 0.09146  smooth: 0.06079  ssim: 0.49681  total: 0.15470
+idx:  400 reconstr: 0.09145  smooth: 0.05837  ssim: 0.42686  total: 0.14410
+idx:  600 reconstr: 0.07743  smooth: 0.07155  ssim: 0.35414  total: 0.12180
+idx:  800 reconstr: 0.08285  smooth: 0.07640  ssim: 0.32260  total: 0.12187
+idx: 1000 reconstr: 0.09201  smooth: 0.06895  ssim: 0.47003  total: 0.15147
+idx: 1200 reconstr: 0.07628  smooth: 0.07917  ssim: 0.30618  total: 0.11393
+idx: 1400 reconstr: 0.06515  smooth: 0.06706  ssim: 0.28712  total: 0.10113
+idx: 1600 reconstr: 0.07662  smooth: 0.06878  ssim: 0.36632  total: 0.12283
+=====================================
+best loss: 216.42994945123792
+=====================================
+Epoch: 65 train_loss: 0.13245406943160215 time: 485.626 s
+============================== epoch: 66
+idx:    0 reconstr: 0.06158  smooth: 0.06888  ssim: 0.25850  total: 0.09387
+idx:  200 reconstr: 0.06259  smooth: 0.07423  ssim: 0.27106  total: 0.09683
+idx:  400 reconstr: 0.08778  smooth: 0.07400  ssim: 0.36348  total: 0.13209
+idx:  600 reconstr: 0.07496  smooth: 0.06957  ssim: 0.32176  total: 0.11477
+idx:  800 reconstr: 0.06178  smooth: 0.07358  ssim: 0.24917  total: 0.09283
+idx: 1000 reconstr: 0.07774  smooth: 0.06308  ssim: 0.37430  total: 0.12475
+idx: 1200 reconstr: 0.05123  smooth: 0.06828  ssim: 0.18166  total: 0.07352
+idx: 1400 reconstr: 0.09819  smooth: 0.06407  ssim: 0.48012  total: 0.15804
+idx: 1600 reconstr: 0.07954  smooth: 0.06871  ssim: 0.36163  total: 0.12460
+Epoch: 66 train_loss: 0.1326950713923723 time: 484.378 s
+============================== epoch: 67
+idx:    0 reconstr: 0.09996  smooth: 0.07323  ssim: 0.48528  total: 0.16069
+idx:  200 reconstr: 0.06829  smooth: 0.07616  ssim: 0.37925  total: 0.11798
+idx:  400 reconstr: 0.07826  smooth: 0.06845  ssim: 0.30749  total: 0.11538
+idx:  600 reconstr: 0.08146  smooth: 0.06376  ssim: 0.25763  total: 0.11044
+idx:  800 reconstr: 0.07396  smooth: 0.07656  ssim: 0.23979  total: 0.10190
+idx: 1000 reconstr: 0.07572  smooth: 0.07514  ssim: 0.26965  total: 0.10782
+idx: 1200 reconstr: 0.06200  smooth: 0.07394  ssim: 0.23326  total: 0.09064
+idx: 1400 reconstr: 0.12001  smooth: 0.06981  ssim: 0.71387  total: 0.21188
+idx: 1600 reconstr: 0.07966  smooth: 0.06895  ssim: 0.31043  total: 0.11703
+Epoch: 67 train_loss: 0.13330032678966205 time: 483.873 s
+============================== epoch: 68
+idx:    0 reconstr: 0.08527  smooth: 0.06224  ssim: 0.52901  total: 0.15432
+idx:  200 reconstr: 0.07711  smooth: 0.07310  ssim: 0.29260  total: 0.11236
+idx:  400 reconstr: 0.05079  smooth: 0.06957  ssim: 0.18941  total: 0.07436
+idx:  600 reconstr: 0.06787  smooth: 0.06885  ssim: 0.29627  total: 0.10489
+idx:  800 reconstr: 0.06498  smooth: 0.06479  ssim: 0.24327  total: 0.09432
+idx: 1000 reconstr: 0.07850  smooth: 0.06364  ssim: 0.32769  total: 0.11842
+idx: 1200 reconstr: 0.12193  smooth: 0.07037  ssim: 0.69776  total: 0.21112
+idx: 1400 reconstr: 0.08560  smooth: 0.06483  ssim: 0.47022  total: 0.14589
+idx: 1600 reconstr: 0.06601  smooth: 0.05007  ssim: 0.28917  total: 0.10149
+=====================================
+best loss: 215.6236454360187
+=====================================
+Epoch: 68 train_loss: 0.13196061532192088 time: 487.3 s
+============================== epoch: 69
+idx:    0 reconstr: 0.06891  smooth: 0.06887  ssim: 0.31259  total: 0.10822
+idx:  200 reconstr: 0.09438  smooth: 0.05984  ssim: 0.42741  total: 0.14673
+idx:  400 reconstr: 0.06223  smooth: 0.07010  ssim: 0.29137  total: 0.09941
+idx:  600 reconstr: 0.06363  smooth: 0.07791  ssim: 0.28572  total: 0.10006
+idx:  800 reconstr: 0.06495  smooth: 0.07898  ssim: 0.23288  total: 0.09330
+idx: 1000 reconstr: 0.08480  smooth: 0.07060  ssim: 0.38699  total: 0.13296
+idx: 1200 reconstr: 0.09534  smooth: 0.07152  ssim: 0.50470  total: 0.15960
+idx: 1400 reconstr: 0.08736  smooth: 0.06940  ssim: 0.49939  total: 0.15194
+idx: 1600 reconstr: 0.08248  smooth: 0.06458  ssim: 0.25012  total: 0.11021
+=====================================
+best loss: 213.49564919248223
+=====================================
+Epoch: 69 train_loss: 0.1306582920394628 time: 485.383 s
+============================== epoch: 70
+idx:    0 reconstr: 0.12975  smooth: 0.06558  ssim: 0.59293  total: 0.20185
+idx:  200 reconstr: 0.05311  smooth: 0.07157  ssim: 0.22434  total: 0.08166
+idx:  400 reconstr: 0.06121  smooth: 0.07002  ssim: 0.26228  total: 0.09417
+idx:  600 reconstr: 0.07194  smooth: 0.06337  ssim: 0.32119  total: 0.11186
+idx:  800 reconstr: 0.11495  smooth: 0.06914  ssim: 0.65656  total: 0.19896
+idx: 1000 reconstr: 0.15215  smooth: 0.07208  ssim: 0.84669  total: 0.25921
+idx: 1200 reconstr: 0.08347  smooth: 0.08061  ssim: 0.33799  total: 0.12487
+idx: 1400 reconstr: 0.07923  smooth: 0.06407  ssim: 0.29921  total: 0.11479
+idx: 1600 reconstr: 0.06555  smooth: 0.06599  ssim: 0.24068  total: 0.09446
+Epoch: 70 train_loss: 0.13089856144948206 time: 486.154 s
+============================== epoch: 71
+idx:    0 reconstr: 0.07021  smooth: 0.06774  ssim: 0.38413  total: 0.12000
+idx:  200 reconstr: 0.06771  smooth: 0.07111  ssim: 0.23873  total: 0.09621
+idx:  400 reconstr: 0.09340  smooth: 0.07671  ssim: 0.39246  total: 0.14133
+idx:  600 reconstr: 0.09368  smooth: 0.06873  ssim: 0.45657  total: 0.15086
+idx:  800 reconstr: 0.19544  smooth: 0.07735  ssim: 0.75517  total: 0.28250
+idx: 1000 reconstr: 0.07261  smooth: 0.06375  ssim: 0.34444  total: 0.11593
+idx: 1200 reconstr: 0.05437  smooth: 0.07289  ssim: 0.24087  total: 0.08526
+idx: 1400 reconstr: 0.06652  smooth: 0.07124  ssim: 0.28178  total: 0.10166
+idx: 1600 reconstr: 0.07277  smooth: 0.06778  ssim: 0.24732  total: 0.10167
+Epoch: 71 train_loss: 0.13088785325526972 time: 487.512 s
+============================== epoch: 72
+idx:    0 reconstr: 0.07311  smooth: 0.07936  ssim: 0.29518  total: 0.10960
+idx:  200 reconstr: 0.07446  smooth: 0.06574  ssim: 0.31248  total: 0.11279
+idx:  400 reconstr: 0.05202  smooth: 0.07240  ssim: 0.18372  total: 0.07467
+idx:  600 reconstr: 0.07725  smooth: 0.06209  ssim: 0.35153  total: 0.12088
+idx:  800 reconstr: 0.05914  smooth: 0.05825  ssim: 0.30451  total: 0.09828
+idx: 1000 reconstr: 0.17113  smooth: 0.07973  ssim: 0.77927  total: 0.26554
+idx: 1200 reconstr: 0.07331  smooth: 0.06961  ssim: 0.24682  total: 0.10212
+idx: 1400 reconstr: 0.05660  smooth: 0.07225  ssim: 0.21627  total: 0.08344
+idx: 1600 reconstr: 0.08982  smooth: 0.08035  ssim: 0.36326  total: 0.13405
+=====================================
+best loss: 212.98456531390548
+=====================================
+Epoch: 72 train_loss: 0.1303455112080205 time: 485.699 s
+============================== epoch: 73
+idx:    0 reconstr: 0.08812  smooth: 0.06245  ssim: 0.43743  total: 0.14301
+idx:  200 reconstr: 0.07510  smooth: 0.06423  ssim: 0.37235  total: 0.12225
+idx:  400 reconstr: 0.08232  smooth: 0.06090  ssim: 0.44288  total: 0.13884
+idx:  600 reconstr: 0.06649  smooth: 0.07446  ssim: 0.29828  total: 0.10423
+idx:  800 reconstr: 0.12437  smooth: 0.06547  ssim: 0.59699  total: 0.19788
+idx: 1000 reconstr: 0.04633  smooth: 0.05965  ssim: 0.21615  total: 0.07419
+idx: 1200 reconstr: 0.05718  smooth: 0.07640  ssim: 0.22893  total: 0.08600
+idx: 1400 reconstr: 0.09856  smooth: 0.05977  ssim: 0.44473  total: 0.15287
+idx: 1600 reconstr: 0.08023  smooth: 0.07854  ssim: 0.35707  total: 0.12490
+Epoch: 73 train_loss: 0.1317810507005621 time: 483.638 s
+============================== epoch: 74
+idx:    0 reconstr: 0.07702  smooth: 0.06778  ssim: 0.35209  total: 0.12099
+idx:  200 reconstr: 0.05211  smooth: 0.07523  ssim: 0.21249  total: 0.07917
+idx:  400 reconstr: 0.05471  smooth: 0.06390  ssim: 0.20811  total: 0.08027
+idx:  600 reconstr: 0.06843  smooth: 0.07785  ssim: 0.22420  total: 0.09491
+idx:  800 reconstr: 0.06700  smooth: 0.07122  ssim: 0.29317  total: 0.10378
+idx: 1000 reconstr: 0.09247  smooth: 0.07162  ssim: 0.37300  total: 0.13741
+idx: 1200 reconstr: 0.05633  smooth: 0.06484  ssim: 0.26884  total: 0.09080
+idx: 1400 reconstr: 0.13796  smooth: 0.07774  ssim: 0.65186  total: 0.21815
+idx: 1600 reconstr: 0.08749  smooth: 0.06859  ssim: 0.45538  total: 0.14542
+Epoch: 74 train_loss: 0.1305138346405114 time: 486.616 s
+============================== epoch: 75
+idx:    0 reconstr: 0.07354  smooth: 0.06991  ssim: 0.27204  total: 0.10611
+idx:  200 reconstr: 0.05863  smooth: 0.06615  ssim: 0.26172  total: 0.09174
+idx:  400 reconstr: 0.12178  smooth: 0.06319  ssim: 0.54728  total: 0.18813
+idx:  600 reconstr: 0.07909  smooth: 0.07059  ssim: 0.32624  total: 0.11899
+idx:  800 reconstr: 0.07935  smooth: 0.06672  ssim: 0.23409  total: 0.10523
+idx: 1000 reconstr: 0.07266  smooth: 0.06590  ssim: 0.28574  total: 0.10726
+idx: 1200 reconstr: 0.07095  smooth: 0.06497  ssim: 0.32788  total: 0.11209
+idx: 1400 reconstr: 0.08186  smooth: 0.06631  ssim: 0.33278  total: 0.12215
+idx: 1600 reconstr: 0.11322  smooth: 0.06080  ssim: 0.46834  total: 0.16892
+=====================================
+best loss: 212.47980539873242
+=====================================
+Epoch: 75 train_loss: 0.13003660061121936 time: 486.382 s
+============================== epoch: 76
+idx:    0 reconstr: 0.09201  smooth: 0.07520  ssim: 0.25741  total: 0.11983
+idx:  200 reconstr: 0.12131  smooth: 0.07176  ssim: 0.60649  total: 0.19696
+idx:  400 reconstr: 0.12982  smooth: 0.05999  ssim: 0.52834  total: 0.19200
+idx:  600 reconstr: 0.10545  smooth: 0.06474  ssim: 0.39724  total: 0.15181
+idx:  800 reconstr: 0.04864  smooth: 0.06002  ssim: 0.18492  total: 0.07148
+idx: 1000 reconstr: 0.07363  smooth: 0.07424  ssim: 0.31450  total: 0.11273
+idx: 1200 reconstr: 0.09313  smooth: 0.06339  ssim: 0.49563  total: 0.15604
+idx: 1400 reconstr: 0.09314  smooth: 0.07234  ssim: 0.29611  total: 0.12648
+idx: 1600 reconstr: 0.06387  smooth: 0.07410  ssim: 0.26033  total: 0.09630
+Epoch: 76 train_loss: 0.13019171551626854 time: 486.057 s
+============================== epoch: 77
+idx:    0 reconstr: 0.08249  smooth: 0.06974  ssim: 0.28893  total: 0.11624
+idx:  200 reconstr: 0.05509  smooth: 0.06007  ssim: 0.22092  total: 0.08236
+idx:  400 reconstr: 0.07021  smooth: 0.05197  ssim: 0.31000  total: 0.10826
+idx:  600 reconstr: 0.10993  smooth: 0.08110  ssim: 0.42825  total: 0.16092
+idx:  800 reconstr: 0.07952  smooth: 0.07142  ssim: 0.32258  total: 0.11884
+idx: 1000 reconstr: 0.09493  smooth: 0.07239  ssim: 0.54557  total: 0.16542
+idx: 1200 reconstr: 0.17404  smooth: 0.05427  ssim: 0.78106  total: 0.26726
+idx: 1400 reconstr: 0.05150  smooth: 0.06607  ssim: 0.21147  total: 0.07814
+idx: 1600 reconstr: 0.06742  smooth: 0.07578  ssim: 0.29161  total: 0.10408
+=====================================
+best loss: 211.56946782022715
+=====================================
+Epoch: 77 train_loss: 0.12947947847015126 time: 487.329 s
+============================== epoch: 78
+idx:    0 reconstr: 0.06128  smooth: 0.07273  ssim: 0.24440  total: 0.09166
+idx:  200 reconstr: 0.10976  smooth: 0.06450  ssim: 0.48610  total: 0.16879
+idx:  400 reconstr: 0.07236  smooth: 0.07046  ssim: 0.34106  total: 0.11548
+idx:  600 reconstr: 0.05410  smooth: 0.06890  ssim: 0.25127  total: 0.08643
+idx:  800 reconstr: 0.05813  smooth: 0.07298  ssim: 0.27006  total: 0.09284
+idx: 1000 reconstr: 0.07205  smooth: 0.07222  ssim: 0.28564  total: 0.10697
+idx: 1200 reconstr: 0.10462  smooth: 0.06253  ssim: 0.63818  total: 0.18715
+idx: 1400 reconstr: 0.06645  smooth: 0.06578  ssim: 0.23015  total: 0.09364
+idx: 1600 reconstr: 0.06270  smooth: 0.06522  ssim: 0.30783  total: 0.10208
+=====================================
+best loss: 211.29563887417316
+=====================================
+Epoch: 78 train_loss: 0.129311896495822 time: 485.386 s
+============================== epoch: 79
+idx:    0 reconstr: 0.07062  smooth: 0.06335  ssim: 0.29105  total: 0.10621
+idx:  200 reconstr: 0.09623  smooth: 0.06746  ssim: 0.52901  total: 0.16385
+idx:  400 reconstr: 0.07780  smooth: 0.07826  ssim: 0.32413  total: 0.11788
+idx:  600 reconstr: 0.04307  smooth: 0.07181  ssim: 0.14724  total: 0.06157
+idx:  800 reconstr: 0.06237  smooth: 0.07114  ssim: 0.23725  total: 0.09145
+idx: 1000 reconstr: 0.06764  smooth: 0.06376  ssim: 0.33057  total: 0.10963
+idx: 1200 reconstr: 0.19068  smooth: 0.06396  ssim: 0.81918  total: 0.28751
+idx: 1400 reconstr: 0.06204  smooth: 0.06392  ssim: 0.26603  total: 0.09519
+idx: 1600 reconstr: 0.08840  smooth: 0.06072  ssim: 0.39626  total: 0.13701
+=====================================
+best loss: 209.43196089938283
+=====================================
+Epoch: 79 train_loss: 0.1281713346997447 time: 484.281 s
+============================== epoch: 80
+idx:    0 reconstr: 0.05437  smooth: 0.06501  ssim: 0.23707  total: 0.08438
+idx:  200 reconstr: 0.07564  smooth: 0.06701  ssim: 0.23847  total: 0.10274
+idx:  400 reconstr: 0.11114  smooth: 0.06743  ssim: 0.58984  total: 0.18564
+idx:  600 reconstr: 0.09628  smooth: 0.06771  ssim: 0.40954  total: 0.14598
+idx:  800 reconstr: 0.07404  smooth: 0.07212  ssim: 0.20137  total: 0.09602
+idx: 1000 reconstr: 0.06317  smooth: 0.06411  ssim: 0.26498  total: 0.09600
+idx: 1200 reconstr: 0.08888  smooth: 0.06999  ssim: 0.47766  total: 0.15000
+idx: 1400 reconstr: 0.09545  smooth: 0.07058  ssim: 0.34140  total: 0.13517
+idx: 1600 reconstr: 0.07170  smooth: 0.05361  ssim: 0.32532  total: 0.11188
+Epoch: 80 train_loss: 0.12939546662616466 time: 485.88 s
+============================== epoch: 81
+idx:    0 reconstr: 0.10595  smooth: 0.08426  ssim: 0.39988  total: 0.15341
+idx:  200 reconstr: 0.07179  smooth: 0.07527  ssim: 0.29284  total: 0.10796
+idx:  400 reconstr: 0.06511  smooth: 0.06566  ssim: 0.22943  total: 0.09238
+idx:  600 reconstr: 0.05001  smooth: 0.07209  ssim: 0.19838  total: 0.07515
+idx:  800 reconstr: 0.10165  smooth: 0.07405  ssim: 0.51959  total: 0.16730
+idx: 1000 reconstr: 0.07010  smooth: 0.06818  ssim: 0.27795  total: 0.10401
+idx: 1200 reconstr: 0.11151  smooth: 0.08161  ssim: 0.50549  total: 0.17387
+idx: 1400 reconstr: 0.08264  smooth: 0.06662  ssim: 0.40456  total: 0.13359
+idx: 1600 reconstr: 0.08094  smooth: 0.07427  ssim: 0.27431  total: 0.11292
+=====================================
+best loss: 209.16333946213126
+=====================================
+Epoch: 81 train_loss: 0.12800693969530677 time: 484.194 s
+============================== epoch: 82
+idx:    0 reconstr: 0.06743  smooth: 0.06965  ssim: 0.26475  total: 0.09981
+idx:  200 reconstr: 0.07826  smooth: 0.07121  ssim: 0.37848  total: 0.12614
+idx:  400 reconstr: 0.11097  smooth: 0.05998  ssim: 0.44046  total: 0.16280
+idx:  600 reconstr: 0.12463  smooth: 0.07380  ssim: 0.48650  total: 0.18187
+idx:  800 reconstr: 0.11971  smooth: 0.07140  ssim: 0.58550  total: 0.19244
+idx: 1000 reconstr: 0.05996  smooth: 0.06964  ssim: 0.29995  total: 0.09875
+idx: 1200 reconstr: 0.06867  smooth: 0.06225  ssim: 0.25955  total: 0.09979
+idx: 1400 reconstr: 0.07027  smooth: 0.06972  ssim: 0.28140  total: 0.10473
+idx: 1600 reconstr: 0.06911  smooth: 0.06978  ssim: 0.27254  total: 0.10242
+Epoch: 82 train_loss: 0.12850943180610458 time: 484.974 s
+============================== epoch: 83
+idx:    0 reconstr: 0.07994  smooth: 0.07263  ssim: 0.40641  total: 0.13181
+idx:  200 reconstr: 0.06179  smooth: 0.07239  ssim: 0.25611  total: 0.09384
+idx:  400 reconstr: 0.07220  smooth: 0.06973  ssim: 0.28816  total: 0.10739
+idx:  600 reconstr: 0.08516  smooth: 0.07191  ssim: 0.40011  total: 0.13528
+idx:  800 reconstr: 0.08772  smooth: 0.07180  ssim: 0.38422  total: 0.13507
+idx: 1000 reconstr: 0.07746  smooth: 0.07185  ssim: 0.31635  total: 0.11616
+idx: 1200 reconstr: 0.10875  smooth: 0.06767  ssim: 0.59967  total: 0.18510
+idx: 1400 reconstr: 0.09249  smooth: 0.08535  ssim: 0.40247  total: 0.14240
+idx: 1600 reconstr: 0.10469  smooth: 0.06554  ssim: 0.45147  total: 0.15933
+Epoch: 83 train_loss: 0.12839538120234903 time: 486.196 s
+============================== epoch: 84
+idx:    0 reconstr: 0.07493  smooth: 0.06466  ssim: 0.32072  total: 0.11438
+idx:  200 reconstr: 0.05928  smooth: 0.06760  ssim: 0.22223  total: 0.08643
+idx:  400 reconstr: 0.11047  smooth: 0.06228  ssim: 0.53603  total: 0.17679
+idx:  600 reconstr: 0.05971  smooth: 0.07729  ssim: 0.23332  total: 0.08884
+idx:  800 reconstr: 0.06034  smooth: 0.07247  ssim: 0.26057  total: 0.09327
+idx: 1000 reconstr: 0.07101  smooth: 0.06831  ssim: 0.27301  total: 0.10404
+idx: 1200 reconstr: 0.08135  smooth: 0.07005  ssim: 0.35409  total: 0.12507
+idx: 1400 reconstr: 0.09521  smooth: 0.07938  ssim: 0.43827  total: 0.14984
+idx: 1600 reconstr: 0.07961  smooth: 0.07361  ssim: 0.32838  total: 0.11987
+Epoch: 84 train_loss: 0.12842328410545498 time: 486.46 s
+============================== epoch: 85
+idx:    0 reconstr: 0.09038  smooth: 0.08100  ssim: 0.27339  total: 0.12107
+idx:  200 reconstr: 0.07748  smooth: 0.06788  ssim: 0.28497  total: 0.11132
+idx:  400 reconstr: 0.08121  smooth: 0.07619  ssim: 0.39570  total: 0.13143
+idx:  600 reconstr: 0.07080  smooth: 0.06984  ssim: 0.30422  total: 0.10861
+idx:  800 reconstr: 0.08607  smooth: 0.07052  ssim: 0.34992  total: 0.12847
+idx: 1000 reconstr: 0.06233  smooth: 0.06730  ssim: 0.24209  total: 0.09199
+idx: 1200 reconstr: 0.07880  smooth: 0.06553  ssim: 0.21451  total: 0.10178
+idx: 1400 reconstr: 0.06544  smooth: 0.06200  ssim: 0.23236  total: 0.09296
+idx: 1600 reconstr: 0.08736  smooth: 0.06404  ssim: 0.37336  total: 0.13283
+=====================================
+best loss: 208.4914181046188
+=====================================
+Epoch: 85 train_loss: 0.12759572711420977 time: 486.466 s
+============================== epoch: 86
+idx:    0 reconstr: 0.06526  smooth: 0.07513  ssim: 0.34033  total: 0.10952
+idx:  200 reconstr: 0.05754  smooth: 0.07008  ssim: 0.17698  total: 0.07826
+idx:  400 reconstr: 0.08296  smooth: 0.06226  ssim: 0.33851  total: 0.12379
+idx:  600 reconstr: 0.17225  smooth: 0.07077  ssim: 0.85745  total: 0.27786
+idx:  800 reconstr: 0.09070  smooth: 0.06620  ssim: 0.41777  total: 0.14241
+idx: 1000 reconstr: 0.06549  smooth: 0.06453  ssim: 0.29895  total: 0.10309
+idx: 1200 reconstr: 0.06858  smooth: 0.06832  ssim: 0.28721  total: 0.10411
+idx: 1400 reconstr: 0.06813  smooth: 0.06872  ssim: 0.26747  total: 0.10078
+idx: 1600 reconstr: 0.06884  smooth: 0.06755  ssim: 0.31836  total: 0.10897
+Epoch: 86 train_loss: 0.12773619089480787 time: 485.72 s
+============================== epoch: 87
+idx:    0 reconstr: 0.06409  smooth: 0.07022  ssim: 0.27100  total: 0.09793
+idx:  200 reconstr: 0.07269  smooth: 0.07438  ssim: 0.29353  total: 0.10879
+idx:  400 reconstr: 0.06539  smooth: 0.08295  ssim: 0.27631  total: 0.10034
+idx:  600 reconstr: 0.05657  smooth: 0.06016  ssim: 0.21322  total: 0.08248
+idx:  800 reconstr: 0.06448  smooth: 0.06885  ssim: 0.27041  total: 0.09812
+idx: 1000 reconstr: 0.06475  smooth: 0.07064  ssim: 0.25657  total: 0.09635
+idx: 1200 reconstr: 0.11967  smooth: 0.06541  ssim: 0.54704  total: 0.18639
+idx: 1400 reconstr: 0.07680  smooth: 0.06007  ssim: 0.33924  total: 0.11857
+idx: 1600 reconstr: 0.06868  smooth: 0.07369  ssim: 0.29920  total: 0.10621
+=====================================
+best loss: 207.14361126720905
+=====================================
+Epoch: 87 train_loss: 0.1267708759285245 time: 489.327 s
+============================== epoch: 88
+idx:    0 reconstr: 0.08344  smooth: 0.06776  ssim: 0.38199  total: 0.13093
+idx:  200 reconstr: 0.07592  smooth: 0.07941  ssim: 0.33530  total: 0.11801
+idx:  400 reconstr: 0.06981  smooth: 0.07402  ssim: 0.28825  total: 0.10554
+idx:  600 reconstr: 0.06285  smooth: 0.06753  ssim: 0.25750  total: 0.09475
+idx:  800 reconstr: 0.08641  smooth: 0.06713  ssim: 0.42822  total: 0.14037
+idx: 1000 reconstr: 0.06558  smooth: 0.07300  ssim: 0.27075  total: 0.09928
+idx: 1200 reconstr: 0.07976  smooth: 0.06612  ssim: 0.38774  total: 0.12860
+idx: 1400 reconstr: 0.08207  smooth: 0.06552  ssim: 0.35254  total: 0.12526
+idx: 1600 reconstr: 0.06159  smooth: 0.07172  ssim: 0.28154  total: 0.09746
+=====================================
+best loss: 206.47572503611445
+=====================================
+Epoch: 88 train_loss: 0.12636213282503944 time: 487.936 s
+============================== epoch: 89
+idx:    0 reconstr: 0.04859  smooth: 0.06757  ssim: 0.15856  total: 0.06779
+idx:  200 reconstr: 0.07407  smooth: 0.06965  ssim: 0.27131  total: 0.10644
+idx:  400 reconstr: 0.13977  smooth: 0.06065  ssim: 0.61191  total: 0.21302
+idx:  600 reconstr: 0.08800  smooth: 0.07598  ssim: 0.32900  total: 0.12719
+idx:  800 reconstr: 0.04205  smooth: 0.07108  ssim: 0.14497  total: 0.06033
+idx: 1000 reconstr: 0.05663  smooth: 0.07344  ssim: 0.23811  total: 0.08679
+idx: 1200 reconstr: 0.16433  smooth: 0.05773  ssim: 0.92208  total: 0.28030
+idx: 1400 reconstr: 0.07155  smooth: 0.06845  ssim: 0.29828  total: 0.10829
+idx: 1600 reconstr: 0.06356  smooth: 0.06863  ssim: 0.23018  total: 0.09130
+=====================================
+best loss: 205.8008611164987
+=====================================
+Epoch: 89 train_loss: 0.12594911941034193 time: 488.851 s
+============================== epoch: 90
+idx:    0 reconstr: 0.08318  smooth: 0.06813  ssim: 0.28829  total: 0.11667
+idx:  200 reconstr: 0.04259  smooth: 0.06907  ssim: 0.16498  total: 0.06371
+idx:  400 reconstr: 0.11955  smooth: 0.06924  ssim: 0.62312  total: 0.19786
+idx:  600 reconstr: 0.09973  smooth: 0.06790  ssim: 0.46207  total: 0.15680
+idx:  800 reconstr: 0.08786  smooth: 0.07543  ssim: 0.41066  total: 0.13930
+idx: 1000 reconstr: 0.08921  smooth: 0.06485  ssim: 0.41785  total: 0.14110
+idx: 1200 reconstr: 0.07727  smooth: 0.07316  ssim: 0.28766  total: 0.11175
+idx: 1400 reconstr: 0.05314  smooth: 0.07352  ssim: 0.25153  total: 0.08584
+idx: 1600 reconstr: 0.12569  smooth: 0.06045  ssim: 0.63752  total: 0.20488
+Epoch: 90 train_loss: 0.12798923622438343 time: 489.236 s
+============================== epoch: 91
+idx:    0 reconstr: 0.06830  smooth: 0.07900  ssim: 0.32684  total: 0.11024
+idx:  200 reconstr: 0.07582  smooth: 0.06491  ssim: 0.35161  total: 0.11979
+idx:  400 reconstr: 0.04850  smooth: 0.07310  ssim: 0.19927  total: 0.07404
+idx:  600 reconstr: 0.09325  smooth: 0.06092  ssim: 0.55243  total: 0.16457
+idx:  800 reconstr: 0.08921  smooth: 0.06847  ssim: 0.45546  total: 0.14689
+idx: 1000 reconstr: 0.06219  smooth: 0.07655  ssim: 0.23556  total: 0.09126
+idx: 1200 reconstr: 0.07862  smooth: 0.06952  ssim: 0.30817  total: 0.11583
+idx: 1400 reconstr: 0.08415  smooth: 0.06241  ssim: 0.31801  total: 0.12172
+idx: 1600 reconstr: 0.06418  smooth: 0.06950  ssim: 0.27416  total: 0.09846
+=====================================
+best loss: 205.50243874639273
+=====================================
+Epoch: 91 train_loss: 0.1257664863809013 time: 487.858 s
+============================== epoch: 92
+idx:    0 reconstr: 0.05558  smooth: 0.07964  ssim: 0.23928  total: 0.08632
+idx:  200 reconstr: 0.09528  smooth: 0.07492  ssim: 0.45087  total: 0.15161
+idx:  400 reconstr: 0.09237  smooth: 0.07309  ssim: 0.43701  total: 0.14699
+idx:  600 reconstr: 0.08517  smooth: 0.08274  ssim: 0.33265  total: 0.12560
+idx:  800 reconstr: 0.06958  smooth: 0.07489  ssim: 0.28350  total: 0.10467
+idx: 1000 reconstr: 0.17075  smooth: 0.06145  ssim: 0.88403  total: 0.28020
+idx: 1200 reconstr: 0.10494  smooth: 0.07223  ssim: 0.44359  total: 0.15862
+idx: 1400 reconstr: 0.11117  smooth: 0.05900  ssim: 0.35019  total: 0.14938
+idx: 1600 reconstr: 0.10249  smooth: 0.06554  ssim: 0.48836  total: 0.16299
+Epoch: 92 train_loss: 0.1262594696631338 time: 489.33 s
+============================== epoch: 93
+idx:    0 reconstr: 0.05857  smooth: 0.07142  ssim: 0.27280  total: 0.09356
+idx:  200 reconstr: 0.10486  smooth: 0.07367  ssim: 0.35152  total: 0.14480
+idx:  400 reconstr: 0.18635  smooth: 0.05607  ssim: 0.91160  total: 0.29738
+idx:  600 reconstr: 0.10892  smooth: 0.06777  ssim: 0.46782  total: 0.16547
+idx:  800 reconstr: 0.09489  smooth: 0.06587  ssim: 0.43872  total: 0.14910
+idx: 1000 reconstr: 0.07075  smooth: 0.06953  ssim: 0.22310  total: 0.09639
+idx: 1200 reconstr: 0.09718  smooth: 0.09170  ssim: 0.48501  total: 0.15902
+idx: 1400 reconstr: 0.07734  smooth: 0.06716  ssim: 0.30899  total: 0.11478
+idx: 1600 reconstr: 0.08182  smooth: 0.07679  ssim: 0.36351  total: 0.12715
+Epoch: 93 train_loss: 0.12607198512475742 time: 490.953 s
+============================== epoch: 94
+idx:    0 reconstr: 0.11682  smooth: 0.06095  ssim: 0.50699  total: 0.17778
+idx:  200 reconstr: 0.07204  smooth: 0.06497  ssim: 0.31392  total: 0.11092
+idx:  400 reconstr: 0.13772  smooth: 0.06118  ssim: 0.75113  total: 0.23218
+idx:  600 reconstr: 0.07451  smooth: 0.06846  ssim: 0.26895  total: 0.10642
+idx:  800 reconstr: 0.05966  smooth: 0.06676  ssim: 0.23592  total: 0.08877
+idx: 1000 reconstr: 0.06943  smooth: 0.07488  ssim: 0.28242  total: 0.10437
+idx: 1200 reconstr: 0.05241  smooth: 0.06500  ssim: 0.22899  total: 0.08150
+idx: 1400 reconstr: 0.10105  smooth: 0.06600  ssim: 0.58440  total: 0.17620
+idx: 1600 reconstr: 0.08079  smooth: 0.06679  ssim: 0.34264  total: 0.12274
+=====================================
+best loss: 204.5854924917221
+=====================================
+Epoch: 94 train_loss: 0.12520531976237584 time: 488.225 s
+============================== epoch: 95
+idx:    0 reconstr: 0.06368  smooth: 0.07759  ssim: 0.27841  total: 0.09899
+idx:  200 reconstr: 0.07860  smooth: 0.07921  ssim: 0.32169  total: 0.11823
+idx:  400 reconstr: 0.06782  smooth: 0.07099  ssim: 0.26377  total: 0.10006
+idx:  600 reconstr: 0.07202  smooth: 0.06440  ssim: 0.39905  total: 0.12365
+idx:  800 reconstr: 0.08067  smooth: 0.06532  ssim: 0.32953  total: 0.12061
+idx: 1000 reconstr: 0.10346  smooth: 0.06816  ssim: 0.48112  total: 0.16284
+idx: 1200 reconstr: 0.07537  smooth: 0.06687  ssim: 0.26597  total: 0.10663
+idx: 1400 reconstr: 0.06465  smooth: 0.06853  ssim: 0.26364  total: 0.09724
+idx: 1600 reconstr: 0.06384  smooth: 0.06949  ssim: 0.27610  total: 0.09845
+Epoch: 95 train_loss: 0.12620156457148393 time: 490.22 s
+============================== epoch: 96
+idx:    0 reconstr: 0.07404  smooth: 0.07850  ssim: 0.22490  total: 0.09981
+idx:  200 reconstr: 0.11958  smooth: 0.06218  ssim: 0.55606  total: 0.18754
+idx:  400 reconstr: 0.20830  smooth: 0.05814  ssim: 0.86932  total: 0.30978
+idx:  600 reconstr: 0.05971  smooth: 0.06645  ssim: 0.24616  total: 0.09034
+idx:  800 reconstr: 0.07489  smooth: 0.07217  ssim: 0.29615  total: 0.11096
+idx: 1000 reconstr: 0.08067  smooth: 0.07330  ssim: 0.44458  total: 0.13819
+idx: 1200 reconstr: 0.06538  smooth: 0.06753  ssim: 0.33004  total: 0.10778
