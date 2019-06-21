@@ -159,6 +159,8 @@ class SequenceFolder(data.Dataset):
                                  [0.00000000e+00, 0.00000000e+00, 1.00000000e+00],
                                  ]).astype(np.float32)
         
+        # The original size of the picture taken by my phone camera is 1280 x 720.
+        # if your original picture size is not 1280 x 720, change the two numbers below
         # resize 1280 x 720 -> 416 x 128
         self.intrinsics[0] = self.intrinsics[0]*(416.0/1280.0)
         self.intrinsics[1] = self.intrinsics[1]*(128.0/720.0)

@@ -5,7 +5,7 @@ Created on Fri Mar 15 14:30:09 2019
 @author: x
 
 将视频分解为图片
-decompose the each video into images by hand !!!!!!
+decompose each video into images by hand !!!!!!
 
 
 calib.mp4 -> ./calib_jpg/0001.jpg
