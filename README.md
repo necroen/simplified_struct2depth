@@ -14,8 +14,7 @@ I didn't rewrite the handle motion part code with pytorch !!!
 
 The gif above is the training result of 1634 pictures and 95 epochs. 
 <br> 
-[**Chinese readme 中文**](./misc/说明.pdf)  
-qq 群：369308681  
+[**Chinese readme 中文**](./misc/说明.pdf)   
 
 heavily borrow code from [sfmlearner](https://github.com/ClementPinard/SfmLearner-Pytorch) and [monodepth](https://github.com/ClubAI/MonoDepth-PyTorch).  
 [original code in tensorflow](https://github.com/tensorflow/models/tree/master/research/struct2depth)  
